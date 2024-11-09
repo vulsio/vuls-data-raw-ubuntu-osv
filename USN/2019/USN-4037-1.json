@@ -1,0 +1,91 @@
+{
+	"schema_version": "1.6.0",
+	"id": "USN-4037-1",
+	"modified": "2019-06-25T11:57:23.320816Z",
+	"published": "2019-06-25T11:57:23.320816Z",
+	"summary": "policykit-desktop-privileges update",
+	"details": "The policykit-desktop-privileges Startup Disk Creator policy allowed\nadministrative users to overwrite disks. As a security improvement, this\noperation now requires authentication.\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Ubuntu:16.04:LTS",
+				"name": "policykit-desktop-privileges",
+				"purl": "pkg:deb/ubuntu/policykit-desktop-privileges?arch=src?distro=xenial"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.20ubuntu16.04.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"0.19",
+				"0.20"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "policykit-desktop-privileges",
+						"binary_version": "0.20ubuntu16.04.1"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-4037-1.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Ubuntu:18.04:LTS",
+				"name": "policykit-desktop-privileges",
+				"purl": "pkg:deb/ubuntu/policykit-desktop-privileges?arch=src?distro=bionic"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.20ubuntu18.04.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"0.20"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "policykit-desktop-privileges",
+						"binary_version": "0.20ubuntu18.04.1"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-4037-1.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-4037-1"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://launchpad.net/bugs/1832337"
+		}
+	]
+}

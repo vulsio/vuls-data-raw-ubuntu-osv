@@ -1,0 +1,138 @@
+{
+	"schema_version": "1.6.0",
+	"id": "USN-3434-1",
+	"modified": "2017-10-02T17:01:35.633715Z",
+	"published": "2017-10-02T17:01:35.633715Z",
+	"related": [
+		"CVE-2017-14062",
+		"UBUNTU-CVE-2017-14062"
+	],
+	"summary": "libidn vulnerability",
+	"details": "It was discovered that Libidn incorrectly handled decoding certain digits.\nA remote attacker could use this issue to cause Libidn to crash, resulting\nin a denial of service, or possibly execute arbitrary code.\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Ubuntu:14.04:LTS",
+				"name": "libidn",
+				"purl": "pkg:deb/ubuntu/libidn?arch=src?distro=trusty"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.28-1ubuntu2.2"
+						}
+					]
+				}
+			],
+			"versions": [
+				"1.28-1ubuntu1",
+				"1.28-1ubuntu2",
+				"1.28-1ubuntu2.1"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "idn",
+						"binary_version": "1.28-1ubuntu2.2"
+					},
+					{
+						"binary_name": "idn-dbgsym",
+						"binary_version": "1.28-1ubuntu2.2"
+					},
+					{
+						"binary_name": "libidn11",
+						"binary_version": "1.28-1ubuntu2.2"
+					},
+					{
+						"binary_name": "libidn11-dbgsym",
+						"binary_version": "1.28-1ubuntu2.2"
+					},
+					{
+						"binary_name": "libidn11-dev",
+						"binary_version": "1.28-1ubuntu2.2"
+					},
+					{
+						"binary_name": "libidn11-java",
+						"binary_version": "1.28-1ubuntu2.2"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-3434-1.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Ubuntu:16.04:LTS",
+				"name": "libidn",
+				"purl": "pkg:deb/ubuntu/libidn?arch=src?distro=xenial"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.32-3ubuntu1.2"
+						}
+					]
+				}
+			],
+			"versions": [
+				"1.28-1ubuntu2",
+				"1.32-3ubuntu1",
+				"1.32-3ubuntu1.1"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "idn",
+						"binary_version": "1.32-3ubuntu1.2"
+					},
+					{
+						"binary_name": "idn-dbgsym",
+						"binary_version": "1.32-3ubuntu1.2"
+					},
+					{
+						"binary_name": "libidn11",
+						"binary_version": "1.32-3ubuntu1.2"
+					},
+					{
+						"binary_name": "libidn11-dbgsym",
+						"binary_version": "1.32-3ubuntu1.2"
+					},
+					{
+						"binary_name": "libidn11-dev",
+						"binary_version": "1.32-3ubuntu1.2"
+					},
+					{
+						"binary_name": "libidn11-java",
+						"binary_version": "1.32-3ubuntu1.2"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-3434-1.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-3434-1"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2017-14062"
+		}
+	]
+}

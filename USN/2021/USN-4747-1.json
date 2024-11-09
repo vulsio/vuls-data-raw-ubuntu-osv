@@ -1,0 +1,158 @@
+{
+	"schema_version": "1.6.0",
+	"id": "USN-4747-1",
+	"modified": "2021-02-24T13:58:42.115382Z",
+	"published": "2021-02-24T13:58:42.115382Z",
+	"related": [
+		"CVE-2021-26937",
+		"UBUNTU-CVE-2021-26937"
+	],
+	"summary": "screen vulnerability",
+	"details": "Felix Weinmann discovered that GNU Screen incorrectly handled certain\ncharacter sequences. A remote attacker could use this issue to cause GNU\nScreen to crash, resulting in a denial of service, or possibly execute\narbitrary code.\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Ubuntu:16.04:LTS",
+				"name": "screen",
+				"purl": "pkg:deb/ubuntu/screen?arch=src?distro=xenial"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.3.1-2ubuntu0.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.3.1-2",
+				"4.3.1-2build1"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "screen",
+						"binary_version": "4.3.1-2ubuntu0.1"
+					},
+					{
+						"binary_name": "screen-dbg",
+						"binary_version": "4.3.1-2ubuntu0.1"
+					},
+					{
+						"binary_name": "screen-dbgsym",
+						"binary_version": "4.3.1-2ubuntu0.1"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-4747-1.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Ubuntu:18.04:LTS",
+				"name": "screen",
+				"purl": "pkg:deb/ubuntu/screen?arch=src?distro=bionic"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.6.2-1ubuntu1.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.6.1-1",
+				"4.6.2-1",
+				"4.6.2-1ubuntu1"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "screen",
+						"binary_version": "4.6.2-1ubuntu1.1"
+					},
+					{
+						"binary_name": "screen-dbgsym",
+						"binary_version": "4.6.2-1ubuntu1.1"
+					},
+					{
+						"binary_name": "screen-udeb",
+						"binary_version": "4.6.2-1ubuntu1.1"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-4747-1.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Ubuntu:20.04:LTS",
+				"name": "screen",
+				"purl": "pkg:deb/ubuntu/screen?arch=src?distro=focal"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.8.0-1ubuntu0.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.6.2-3build1",
+				"4.7.0-1",
+				"4.8.0-1"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "screen",
+						"binary_version": "4.8.0-1ubuntu0.1"
+					},
+					{
+						"binary_name": "screen-dbgsym",
+						"binary_version": "4.8.0-1ubuntu0.1"
+					},
+					{
+						"binary_name": "screen-udeb",
+						"binary_version": "4.8.0-1ubuntu0.1"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-4747-1.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-4747-1"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2021-26937"
+		}
+	]
+}

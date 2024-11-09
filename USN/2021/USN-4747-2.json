@@ -1,0 +1,60 @@
+{
+	"schema_version": "1.6.0",
+	"id": "USN-4747-2",
+	"modified": "2021-02-24T19:56:30.857628Z",
+	"published": "2021-02-24T19:56:30.857628Z",
+	"related": [
+		"CVE-2021-26937",
+		"UBUNTU-CVE-2021-26937"
+	],
+	"summary": "screen vulnerability",
+	"details": "USN-4747-1 fixed a vulnerability in screen. This update provides\nthe corresponding update for Ubuntu 14.04 ESM.\n\nOriginal advisory details:\n\n Felix Weinmann discovered that GNU Screen incorrectly handled certain\n character sequences. A remote attacker could use this issue to cause GNU\n Screen to crash, resulting in a denial of service, or possibly execute\n arbitrary code.\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Ubuntu:14.04:LTS",
+				"name": "screen",
+				"purl": "pkg:deb/ubuntu/screen?arch=src?distro=trusty"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.0~20120320gitdb59704-9ubuntu0.1~esm2"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.0.3-14ubuntu10",
+				"4.1.0~20120320gitdb59704-9"
+			],
+			"ecosystem_specific": {
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "screen",
+						"binary_version": "4.1.0~20120320gitdb59704-9ubuntu0.1~esm2"
+					}
+				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-4747-2.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-4747-2"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2021-26937"
+		}
+	]
+}
