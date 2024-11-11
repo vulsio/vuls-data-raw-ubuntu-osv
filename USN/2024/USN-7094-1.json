@@ -1,13 +1,32 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-7730",
-	"modified": "2024-11-11T04:32:06Z",
-	"published": "2024-08-15T00:00:00Z",
+	"id": "USN-7094-1",
+	"modified": "2024-11-08T01:42:12.460399Z",
+	"published": "2024-11-08T01:42:12.460399Z",
 	"related": [
+		"CVE-2019-20382",
+		"CVE-2020-13765",
+		"CVE-2020-1983",
+		"CVE-2020-7039",
+		"CVE-2020-8608",
+		"CVE-2021-3592",
+		"CVE-2021-3594",
+		"CVE-2023-3019",
+		"CVE-2024-4693",
 		"CVE-2024-7730",
-		"USN-7094-1"
+		"UBUNTU-CVE-2019-20382",
+		"UBUNTU-CVE-2020-13765",
+		"UBUNTU-CVE-2020-1983",
+		"UBUNTU-CVE-2020-7039",
+		"UBUNTU-CVE-2020-8608",
+		"UBUNTU-CVE-2021-3592",
+		"UBUNTU-CVE-2021-3594",
+		"UBUNTU-CVE-2023-3019",
+		"UBUNTU-CVE-2024-4693",
+		"UBUNTU-CVE-2024-7730"
 	],
-	"details": "Heap-buffer-overflow in virtio-sound",
+	"summary": "qemu vulnerabilities",
+	"details": "It was discovered that QEMU incorrectly handled memory during certain VNC\noperations. A remote attacker could possibly use this issue to cause QEMU\nto consume resources, resulting in a denial of service. This issue only\naffected Ubuntu 14.04 LTS. (CVE-2019-20382)\n\nIt was discovered that QEMU incorrectly handled certain memory copy\noperations when loading ROM contents. If a user were tricked into running\nan untrusted kernel image, a remote attacker could possibly use this issue\nto run arbitrary code. This issue only affected Ubuntu 14.04 LTS.\n(CVE-2020-13765)\n\nAviv Sasson discovered that QEMU incorrectly handled Slirp networking. A\nremote attacker could use this issue to cause QEMU to crash, resulting in a\ndenial of service, or possibly execute arbitrary code. This issue only\naffected Ubuntu 14.04 LTS. (CVE-2020-1983)\n\nIt was discovered that the SLiRP networking implementation of the QEMU\nemulator did not properly manage memory under certain circumstances. An\nattacker could use this to cause a heap-based buffer overflow or other out-\nof-bounds access, which can lead to a denial of service (application crash)\nor potential execute arbitrary code. This issue only affected\nUbuntu 14.04 LTS. (CVE-2020-7039)\n\nIt was discovered that the SLiRP networking implementation of the QEMU\nemulator misuses snprintf return values. An attacker could use this to\ncause a denial of service (application crash) or potentially execute\narbitrary code. This issue only affected Ubuntu 14.04 LTS. (CVE-2020-8608)\n\nIt was discovered that QEMU SLiRP networking incorrectly handled certain\nudp packets. An attacker inside a guest could possibly use this issue to\nleak sensitive information from the host. This issue only affected\nUbuntu 14.04 LTS and Ubuntu 16.04 LTS. (CVE-2021-3592, CVE-2021-3594)\n\nIt was discovered that QEMU had a DMA reentrancy issue, leading to a\nuse-after-free vulnerability. An attacker could possibly use this issue\nto cause a denial of service. This issue only affected Ubuntu 18.04 LTS,\nUbuntu 20.04 LTS and Ubuntu 22.04 LTS. (CVE-2023-3019)\n\nIt was discovered that QEMU had a flaw in Virtio PCI Bindings, leading\nto a triggerable crash via vhost_net_stop. An attacker inside a guest\ncould possibly use this issue to cause a denial of service. This issue\nonly affected Ubuntu 24.04 LTS and Ubuntu 24.10. (CVE-2024-4693)\n\nIt was discovered that QEMU incorrectly handled memory in virtio-sound,\nleading to a heap-based buffer overflow. An attacker could possibly use\nthis issue to cause a denial of service or execute arbitrary code. This\nissue only affected Ubuntu 24.04 LTS and Ubuntu 24.10. (CVE-2024-7730)\n",
 	"affected": [
 		{
 			"package": {
@@ -218,11 +237,10 @@
 						"binary_name": "qemu-utils-dbgsym",
 						"binary_version": "2.0.0+dfsg-2ubuntu1.47+esm4"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-7730.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7094-1.json"
 			}
 		},
 		{
@@ -435,11 +453,10 @@
 						"binary_name": "qemu-utils-dbgsym",
 						"binary_version": "1:2.5+dfsg-5ubuntu10.51+esm3"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-7730.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7094-1.json"
 			}
 		},
 		{
@@ -634,11 +651,10 @@
 						"binary_name": "qemu-utils-dbgsym",
 						"binary_version": "1:2.11+dfsg-1ubuntu7.42+esm2"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-7730.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7094-1.json"
 			}
 		},
 		{
@@ -849,11 +865,10 @@
 						"binary_name": "qemu-utils-dbgsym",
 						"binary_version": "1:4.2-3ubuntu6.30"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-7730.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7094-1.json"
 			}
 		},
 		{
@@ -1047,11 +1062,10 @@
 						"binary_name": "qemu-utils-dbgsym",
 						"binary_version": "1:6.2+dfsg-2ubuntu6.24"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-7730.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7094-1.json"
 			}
 		},
 		{
@@ -1242,11 +1256,10 @@
 						"binary_name": "qemu-utils-dbgsym",
 						"binary_version": "1:9.0.2+ds-4ubuntu5.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-7730.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7094-1.json"
 			}
 		},
 		{
@@ -1442,30 +1455,61 @@
 						"binary_name": "qemu-utils-dbgsym",
 						"binary_version": "1:8.2.2+ds-0ubuntu1.4"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-7730.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7094-1.json"
 			}
 		}
 	],
 	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7094-1"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2019-20382"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2020-1983"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2020-7039"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2020-8608"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2020-13765"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2021-3592"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2021-3594"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2023-3019"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2024-4693"
+		},
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-7730"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-7730"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://lore.kernel.org/qemu-devel/virtio-snd-fuzz-2427-fix-v1-manos.pitsidianakis@linaro.org/"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7094-1"
+			"url": "https://bugs.launchpad.net/ubuntu/+source/qemu/+bug/2084210"
 		}
 	]
 }
