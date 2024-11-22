@@ -206,9 +206,6 @@
 						"linux-tools-oem-22.04d": "6.5.0.1022.24"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/USN-6765-1.json"
 			}
 		}
 	],

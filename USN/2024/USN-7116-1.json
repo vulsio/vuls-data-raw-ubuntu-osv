@@ -121,9 +121,6 @@
 						"binary_version": "3.8.10-0ubuntu1~20.04.13"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7116-1.json"
 			}
 		},
 		{
@@ -238,9 +235,6 @@
 						"binary_version": "3.10.12-1~22.04.7"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7116-1.json"
 			}
 		},
 		{
@@ -348,9 +342,6 @@
 						"binary_version": "3.12.7-1ubuntu1"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7116-1.json"
 			}
 		},
 		{
@@ -454,9 +445,6 @@
 						"binary_version": "3.12.3-1ubuntu0.3"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7116-1.json"
 			}
 		}
 	],

@@ -554,9 +554,6 @@
 						"binary_version": "131.0.3+build1-0ubuntu0.20.04.1"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7078-1.json"
 			}
 		}
 	],

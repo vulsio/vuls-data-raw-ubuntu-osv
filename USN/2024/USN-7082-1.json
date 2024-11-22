@@ -175,9 +175,6 @@
 						"binary_version": "1.17.6-1ubuntu4.1"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7082-1.json"
 			}
 		}
 	],

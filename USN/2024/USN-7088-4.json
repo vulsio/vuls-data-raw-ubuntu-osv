@@ -486,9 +486,6 @@
 						"binary_version": "5.4.0-1140.147~18.04.1"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7088-4.json"
 			}
 		},
 		{
@@ -660,9 +657,6 @@
 						"binary_version": "5.4.0-1135.145"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7088-4.json"
 			}
 		},
 		{
@@ -817,9 +811,6 @@
 						"binary_version": "5.4.0-1123.131"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7088-4.json"
 			}
 		},
 		{
@@ -981,9 +972,6 @@
 						"binary_version": "5.4.0-1134.143"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7088-4.json"
 			}
 		},
 		{
@@ -1077,9 +1065,6 @@
 						"binary_version": "5.4.0-1054.58"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7088-4.json"
 			}
 		}
 	],

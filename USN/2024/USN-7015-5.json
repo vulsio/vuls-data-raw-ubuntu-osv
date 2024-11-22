@@ -149,9 +149,6 @@
 						"binary_version": "2.7.6-8ubuntu0.6+esm21"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7015-5.json"
 			}
 		},
 		{
@@ -279,9 +276,6 @@
 						"binary_version": "2.7.12-1ubuntu0~16.04.18+esm12"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7015-5.json"
 			}
 		},
 		{
@@ -389,9 +383,6 @@
 						"binary_version": "2.7.17-1~18.04ubuntu1.13+esm7"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7015-5.json"
 			}
 		},
 		{
@@ -480,9 +471,6 @@
 						"binary_version": "2.7.18-1~20.04.5"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7015-5.json"
 			}
 		},
 		{
@@ -567,9 +555,6 @@
 						"binary_version": "2.7.18-13ubuntu1.3"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7015-5.json"
 			}
 		}
 	],

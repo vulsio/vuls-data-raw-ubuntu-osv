@@ -259,9 +259,6 @@
 						"binary_version": "4.15.0-1183.198~14.04.1"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-2.json"
 			}
 		}
 	],

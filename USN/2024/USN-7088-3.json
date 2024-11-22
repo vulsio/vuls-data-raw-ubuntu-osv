@@ -488,9 +488,6 @@
 						"binary_version": "5.4.0-1135.145~18.04.1"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7088-3.json"
 			}
 		},
 		{
@@ -641,9 +638,6 @@
 						"binary_version": "5.4.0-1134.143~18.04.1"
 					}
 				]
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7088-3.json"
 			}
 		}
 	],
