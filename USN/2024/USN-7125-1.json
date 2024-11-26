@@ -1,13 +1,14 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-38517",
-	"modified": "2024-11-26T04:31:59Z",
-	"published": "2024-07-09T19:15:00Z",
+	"id": "USN-7125-1",
+	"modified": "2024-11-25T17:38:46.735848Z",
+	"published": "2024-11-25T17:38:46.735848Z",
 	"related": [
 		"CVE-2024-38517",
-		"USN-7125-1"
+		"UBUNTU-CVE-2024-38517"
 	],
-	"details": "Tencent RapidJSON is vulnerable to privilege escalation due to an integer underflow in the `GenericReader::ParseNumber()` function of `include/rapidjson/reader.h` when parsing JSON text from a stream. An attacker needs to send the victim a crafted file which needs to be opened; this triggers the integer underflow vulnerability (when the file is parsed), leading to elevation of privilege.",
+	"summary": "rapidjson vulnerability",
+	"details": "It was discovered that RapidJSON incorrectly parsed numbers written in\nscientific notation, leading to an integer underflow. An attacker could\npossibly use this issue to cause a denial of service, or execute arbitrary\ncode.\n",
 	"affected": [
 		{
 			"package": {
@@ -42,11 +43,10 @@
 						"binary_name": "rapidjson-doc",
 						"binary_version": "0.12~git20141031-3ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7125-1.json"
 			}
 		},
 		{
@@ -83,38 +83,10 @@
 						"binary_name": "rapidjson-doc",
 						"binary_version": "1.1.0+dfsg2-3ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:20.04:LTS",
-				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=focal"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1.1.0+dfsg2-5",
-				"1.1.0+dfsg2-5ubuntu1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7125-1.json"
 			}
 		},
 		{
@@ -151,37 +123,10 @@
 						"binary_name": "rapidjson-doc",
 						"binary_version": "1.1.0+dfsg2-5ubuntu1+esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:22.04:LTS",
-				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=jammy"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1.1.0+dfsg2-7"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7125-1.json"
 			}
 		},
 		{
@@ -217,11 +162,10 @@
 						"binary_name": "rapidjson-doc",
 						"binary_version": "1.1.0+dfsg2-7ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7125-1.json"
 			}
 		},
 		{
@@ -259,38 +203,10 @@
 						"binary_name": "rapidjson-doc",
 						"binary_version": "1.1.0+dfsg2-7.3ubuntu0.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:24.04:LTS",
-				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=noble"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1.1.0+dfsg2-7.1",
-				"1.1.0+dfsg2-7.2"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7125-1.json"
 			}
 		},
 		{
@@ -327,38 +243,21 @@
 						"binary_name": "rapidjson-doc",
 						"binary_version": "1.1.0+dfsg2-7.2ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-38517.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7125-1.json"
 			}
 		}
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7125-1"
+		},
+		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-38517"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-38517"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38517"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://github.com/Tencent/rapidjson/pull/1261/commits/8269bc2bc289e9d343bae51cdf6d23ef0950e001"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://github.com/fmalita/rapidjson/commit/8269bc2bc289e9d343bae51cdf6d23ef0950e001"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7125-1"
 		}
 	]
 }
