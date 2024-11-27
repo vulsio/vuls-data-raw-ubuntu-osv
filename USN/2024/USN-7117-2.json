@@ -1,20 +1,13 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-48991",
-	"modified": "2024-11-26T16:30:52Z",
-	"published": "2024-11-19T16:00:00Z",
+	"id": "USN-7117-2",
+	"modified": "2024-11-26T09:29:32.319524Z",
+	"published": "2024-11-26T09:29:32.319524Z",
 	"related": [
-		"CVE-2024-48991",
-		"USN-7117-1",
-		"USN-7117-2"
+		"UBUNTU-CVE-2024-48991"
 	],
-	"details": "Qualys discovered that needrestart, before version 3.8, allows local attackers to execute arbitrary code as root by winning a race condition and tricking needrestart into running their own, fake Python interpreter (instead of the system's real Python interpreter).",
-	"severity": [
-		{
-			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
-		}
-	],
+	"summary": "needrestart regression",
+	"details": "USN-7117-1 fixed vulnerabilities in needrestart. The update introduced a\nregression in needrestart. This update fixes the problem.\n\nWe apologize for the inconvenience.\n\nOriginal advisory details:\n\n Qualys discovered that needrestart passed unsanitized data to a library \n (libmodule-scandeps-perl) which expects safe input. A local attacker could\n possibly use this issue to execute arbitrary code as root.\n (CVE-2024-11003)\n \n Qualys discovered that the library libmodule-scandeps-perl incorrectly \n parsed perl code. This could allow a local attacker to execute arbitrary\n shell commands. (CVE-2024-10224)\n \n Qualys discovered that needrestart incorrectly used the PYTHONPATH \n environment variable to spawn a new Python interpreter. A local attacker \n could possibly use this issue to execute arbitrary code as root. \n (CVE-2024-48990)\n \n Qualys discovered that needrestart incorrectly checked the path to the\n Python interpreter. A local attacker could possibly use this issue to win\n a race condition and execute arbitrary code as root. (CVE-2024-48991)\n \n Qualys discovered that needrestart incorrectly used the RUBYLIB\n environment variable to spawn a new Ruby interpreter. A local attacker\n could possibly use this issue to execute arbitrary code as root.\n (CVE-2024-48992)\n",
 	"affected": [
 		{
 			"package": {
@@ -30,7 +23,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.6-1ubuntu0.1~esm1"
+							"fixed": "2.6-1ubuntu0.1~esm2"
 						}
 					]
 				}
@@ -40,21 +33,20 @@
 				"2.3-2",
 				"2.4-1",
 				"2.5-1",
-				"2.6-1"
+				"2.6-1",
+				"2.6-1ubuntu0.1~esm1"
 			],
 			"ecosystem_specific": {
 				"availability": "Available with Ubuntu Pro: https://ubuntu.com/pro",
 				"binaries": [
 					{
 						"binary_name": "needrestart",
-						"binary_version": "2.6-1ubuntu0.1~esm1"
+						"binary_version": "2.6-1ubuntu0.1~esm2"
 					}
-				],
-				"priority_reason": "Local privilege escalation",
-				"ubuntu_priority": "high"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-48991.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7117-2.json"
 			}
 		},
 		{
@@ -71,7 +63,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.1-1ubuntu0.1+esm1"
+							"fixed": "3.1-1ubuntu0.1+esm2"
 						}
 					]
 				}
@@ -80,50 +72,20 @@
 				"2.11-4",
 				"3.0-1",
 				"3.1-1",
-				"3.1-1ubuntu0.1"
+				"3.1-1ubuntu0.1",
+				"3.1-1ubuntu0.1+esm1"
 			],
 			"ecosystem_specific": {
 				"availability": "Available with Ubuntu Pro: https://ubuntu.com/pro",
 				"binaries": [
 					{
 						"binary_name": "needrestart",
-						"binary_version": "3.1-1ubuntu0.1+esm1"
+						"binary_version": "3.1-1ubuntu0.1+esm2"
 					}
-				],
-				"priority_reason": "Local privilege escalation",
-				"ubuntu_priority": "high"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-48991.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:20.04:LTS",
-				"name": "needrestart",
-				"purl": "pkg:deb/ubuntu/needrestart?arch=src?distro=focal"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"3.4-5",
-				"3.4-6",
-				"3.4-6ubuntu0.1"
-			],
-			"ecosystem_specific": {
-				"priority_reason": "Local privilege escalation",
-				"ubuntu_priority": "high"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-48991.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7117-2.json"
 			}
 		},
 		{
@@ -140,7 +102,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.4-6ubuntu0.1+esm1"
+							"fixed": "3.4-6ubuntu0.1+esm2"
 						}
 					]
 				}
@@ -148,21 +110,20 @@
 			"versions": [
 				"3.4-5",
 				"3.4-6",
-				"3.4-6ubuntu0.1"
+				"3.4-6ubuntu0.1",
+				"3.4-6ubuntu0.1+esm1"
 			],
 			"ecosystem_specific": {
 				"availability": "Available with Ubuntu Pro: https://ubuntu.com/pro",
 				"binaries": [
 					{
 						"binary_name": "needrestart",
-						"binary_version": "3.4-6ubuntu0.1+esm1"
+						"binary_version": "3.4-6ubuntu0.1+esm2"
 					}
-				],
-				"priority_reason": "Local privilege escalation",
-				"ubuntu_priority": "high"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-48991.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7117-2.json"
 			}
 		},
 		{
@@ -179,7 +140,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.5-5ubuntu2.2"
+							"fixed": "3.5-5ubuntu2.3"
 						}
 					]
 				}
@@ -188,21 +149,20 @@
 				"3.5-4ubuntu2",
 				"3.5-5ubuntu1",
 				"3.5-5ubuntu2",
-				"3.5-5ubuntu2.1"
+				"3.5-5ubuntu2.1",
+				"3.5-5ubuntu2.2"
 			],
 			"ecosystem_specific": {
 				"availability": "No subscription required",
 				"binaries": [
 					{
 						"binary_name": "needrestart",
-						"binary_version": "3.5-5ubuntu2.2"
+						"binary_version": "3.5-5ubuntu2.3"
 					}
-				],
-				"priority_reason": "Local privilege escalation",
-				"ubuntu_priority": "high"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-48991.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7117-2.json"
 			}
 		},
 		{
@@ -219,7 +179,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.6-8ubuntu4.2"
+							"fixed": "3.6-8ubuntu4.3"
 						}
 					]
 				}
@@ -229,21 +189,20 @@
 				"3.6-8ubuntu1",
 				"3.6-8ubuntu2",
 				"3.6-8ubuntu3",
-				"3.6-8ubuntu4"
+				"3.6-8ubuntu4",
+				"3.6-8ubuntu4.2"
 			],
 			"ecosystem_specific": {
 				"availability": "No subscription required",
 				"binaries": [
 					{
 						"binary_name": "needrestart",
-						"binary_version": "3.6-8ubuntu4.2"
+						"binary_version": "3.6-8ubuntu4.3"
 					}
-				],
-				"priority_reason": "Local privilege escalation",
-				"ubuntu_priority": "high"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-48991.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7117-2.json"
 			}
 		},
 		{
@@ -260,7 +219,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.6-7ubuntu4.3"
+							"fixed": "3.6-7ubuntu4.4"
 						}
 					]
 				}
@@ -271,48 +230,31 @@
 				"3.6-7",
 				"3.6-7ubuntu3",
 				"3.6-7ubuntu4",
-				"3.6-7ubuntu4.1"
+				"3.6-7ubuntu4.1",
+				"3.6-7ubuntu4.3"
 			],
 			"ecosystem_specific": {
 				"availability": "No subscription required",
 				"binaries": [
 					{
 						"binary_name": "needrestart",
-						"binary_version": "3.6-7ubuntu4.3"
+						"binary_version": "3.6-7ubuntu4.4"
 					}
-				],
-				"priority_reason": "Local privilege escalation",
-				"ubuntu_priority": "high"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-48991.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7117-2.json"
 			}
 		}
 	],
 	"references": [
 		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2024-48991"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-48991"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.qualys.com/2024/11/19/needrestart/needrestart.txt"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7117-1"
-		},
-		{
-			"type": "REPORT",
+			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-7117-2"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://github.com/liske/needrestart/issues/317"
+			"url": "https://launchpad.net/bugs/2089193"
 		}
 	]
 }
