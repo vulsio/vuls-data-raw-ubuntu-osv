@@ -502,6 +502,9 @@
 						"binary_version": "6.8.0-48.48.3~22.04.1"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7089-7.json"
 			}
 		},
 		{
@@ -628,6 +631,9 @@
 						"binary_version": "6.8.0-48.48.3"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7089-7.json"
 			}
 		}
 	],

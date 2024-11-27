@@ -123,6 +123,9 @@
 						"binary_version": "1:1.2.8.dfsg-1ubuntu1.1+esm3"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7107-1.json"
 			}
 		}
 	],

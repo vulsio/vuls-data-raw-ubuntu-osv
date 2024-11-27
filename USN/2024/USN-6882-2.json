@@ -81,6 +81,9 @@
 						"binary_version": "2:16.4.2-0ubuntu2.9"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-6882-2.json"
 			}
 		},
 		{
@@ -147,6 +150,9 @@
 						"binary_version": "2:20.3.1-0ubuntu1.5"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-6882-2.json"
 			}
 		},
 		{
@@ -205,6 +211,9 @@
 						"binary_version": "2:24.0.0-0ubuntu1.3"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-6882-2.json"
 			}
 		}
 	],

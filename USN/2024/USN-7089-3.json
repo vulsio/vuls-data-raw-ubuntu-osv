@@ -477,6 +477,9 @@
 						"binary_version": "6.8.0-1018.19~22.04.1"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7089-3.json"
 			}
 		},
 		{
@@ -575,6 +578,9 @@
 						"binary_version": "6.8.0-1015.15~22.04.1"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7089-3.json"
 			}
 		},
 		{
@@ -660,6 +666,9 @@
 						"binary_version": "6.8.0-1018.20"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7089-3.json"
 			}
 		},
 		{
@@ -763,6 +772,9 @@
 						"binary_version": "6.8.0-1015.16"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7089-3.json"
 			}
 		}
 	],

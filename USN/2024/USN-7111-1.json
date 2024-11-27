@@ -86,6 +86,9 @@
 						"binary_version": "1.17.13-3ubuntu1.3"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7111-1.json"
 			}
 		}
 	],

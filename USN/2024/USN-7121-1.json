@@ -262,6 +262,9 @@
 						"binary_version": "4.15.0-1175.188~16.04.1"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -455,6 +458,9 @@
 						"binary_version": "4.15.0-1183.198~16.04.1"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -636,6 +642,9 @@
 						"binary_version": "4.15.0-1168.185~16.04.1"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -1040,6 +1049,9 @@
 						"binary_version": "4.15.0-231.243~16.04.1"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -1450,6 +1462,9 @@
 						"binary_version": "4.15.0-231.243"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -1639,6 +1654,9 @@
 						"binary_version": "4.15.0-1175.188"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -1781,6 +1799,9 @@
 						"binary_version": "4.15.0-1183.198"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -1916,6 +1937,9 @@
 						"binary_version": "4.15.0-1168.185"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -2086,6 +2110,9 @@
 						"binary_version": "4.15.0-1158.163"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		},
 		{
@@ -2246,6 +2273,9 @@
 						"binary_version": "4.15.0-1137.148"
 					}
 				]
+			},
+			"database_specific": {
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7121-1.json"
 			}
 		}
 	],
