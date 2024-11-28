@@ -1,19 +1,20 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-47814",
-	"modified": "2024-11-28T04:31:41Z",
-	"published": "2024-10-07T22:15:00Z",
+	"id": "USN-7131-1",
+	"modified": "2024-11-27T17:25:15.589747Z",
+	"published": "2024-11-27T17:25:15.589747Z",
 	"related": [
 		"CVE-2024-47814",
-		"USN-7131-1"
+		"UBUNTU-CVE-2024-47814"
 	],
-	"details": "Vim is an open source, command line text editor. A use-after-free was found in Vim < 9.1.0764. When closing a buffer (visible in a window) a BufWinLeave auto command can cause an use-after-free if this auto command happens to re-open the same buffer in a new split window. Impact is low since the user must have intentionally set up such a strange auto command and run some buffer unload commands. However this may lead to a crash. This issue has been addressed in version 9.1.0764 and all users are advised to upgrade. There are no known workarounds for this vulnerability.",
+	"summary": "vim vulnerability",
+	"details": "It was discovered that Vim incorrectly handled memory when closing a\nbuffer, leading to use-after-free. If a user was tricked into opening a\nspecially crafted file, an attacker could crash the application, leading to\na denial of service.\n",
 	"affected": [
 		{
 			"package": {
-				"ecosystem": "Ubuntu:Pro:14.04:LTS",
+				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "vim",
-				"purl": "pkg:deb/ubuntu/vim?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/vim?arch=src?distro=trusty"
 			},
 			"ranges": [
 				{
@@ -21,6 +22,9 @@
 					"events": [
 						{
 							"introduced": "0"
+						},
+						{
+							"fixed": "2:7.4.052-1ubuntu3.1+esm20"
 						}
 					]
 				}
@@ -30,32 +34,59 @@
 				"2:7.4.052-1ubuntu1",
 				"2:7.4.052-1ubuntu2",
 				"2:7.4.052-1ubuntu3",
-				"2:7.4.052-1ubuntu3.1",
-				"2:7.4.052-1ubuntu3.1+esm1",
-				"2:7.4.052-1ubuntu3.1+esm3",
-				"2:7.4.052-1ubuntu3.1+esm4",
-				"2:7.4.052-1ubuntu3.1+esm5",
-				"2:7.4.052-1ubuntu3.1+esm6",
-				"2:7.4.052-1ubuntu3.1+esm7",
-				"2:7.4.052-1ubuntu3.1+esm8",
-				"2:7.4.052-1ubuntu3.1+esm9",
-				"2:7.4.052-1ubuntu3.1+esm10",
-				"2:7.4.052-1ubuntu3.1+esm11",
-				"2:7.4.052-1ubuntu3.1+esm12",
-				"2:7.4.052-1ubuntu3.1+esm13",
-				"2:7.4.052-1ubuntu3.1+esm14",
-				"2:7.4.052-1ubuntu3.1+esm15",
-				"2:7.4.052-1ubuntu3.1+esm16",
-				"2:7.4.052-1ubuntu3.1+esm17",
-				"2:7.4.052-1ubuntu3.1+esm18",
-				"2:7.4.052-1ubuntu3.1+esm19"
+				"2:7.4.052-1ubuntu3.1"
 			],
 			"ecosystem_specific": {
-				"priority_reason": "Upstream rates this as being low severity",
-				"ubuntu_priority": "low"
+				"availability": "No subscription required",
+				"binaries": [
+					{
+						"binary_name": "vim",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-athena",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-common",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-doc",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-gnome",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-gtk",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-gui-common",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-lesstif",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-nox",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-runtime",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					},
+					{
+						"binary_name": "vim-tiny",
+						"binary_version": "2:7.4.052-1ubuntu3.1+esm20"
+					}
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-47814.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7131-1.json"
 			}
 		},
 		{
@@ -232,12 +263,10 @@
 						"binary_name": "vim-tiny-dbgsym",
 						"binary_version": "2:7.4.1689-3ubuntu1.5+esm26"
 					}
-				],
-				"priority_reason": "Upstream rates this as being low severity",
-				"ubuntu_priority": "low"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-47814.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7131-1.json"
 			}
 		},
 		{
@@ -366,12 +395,10 @@
 						"binary_name": "xxd-dbgsym",
 						"binary_version": "2:8.0.1453-1ubuntu1.13+esm11"
 					}
-				],
-				"priority_reason": "Upstream rates this as being low severity",
-				"ubuntu_priority": "low"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-47814.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7131-1.json"
 			}
 		},
 		{
@@ -493,12 +520,10 @@
 						"binary_name": "xxd-dbgsym",
 						"binary_version": "2:8.1.2269-1ubuntu5.29"
 					}
-				],
-				"priority_reason": "Upstream rates this as being low severity",
-				"ubuntu_priority": "low"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-47814.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7131-1.json"
 			}
 		},
 		{
@@ -618,12 +643,10 @@
 						"binary_name": "xxd-dbgsym",
 						"binary_version": "2:8.2.3995-1ubuntu2.21"
 					}
-				],
-				"priority_reason": "Upstream rates this as being low severity",
-				"ubuntu_priority": "low"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-47814.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7131-1.json"
 			}
 		},
 		{
@@ -725,12 +748,10 @@
 						"binary_name": "xxd-dbgsym",
 						"binary_version": "2:9.1.0496-1ubuntu6.2"
 					}
-				],
-				"priority_reason": "Upstream rates this as being low severity",
-				"ubuntu_priority": "low"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-47814.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7131-1.json"
 			}
 		},
 		{
@@ -839,31 +860,21 @@
 						"binary_name": "xxd-dbgsym",
 						"binary_version": "2:9.1.0016-1ubuntu7.5"
 					}
-				],
-				"priority_reason": "Upstream rates this as being low severity",
-				"ubuntu_priority": "low"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-47814.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7131-1.json"
 			}
 		}
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7131-1"
+		},
+		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-47814"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-47814"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://github.com/vim/vim/security/advisories/GHSA-rj48-v4mq-j4vg"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7131-1"
 		}
 	]
 }
