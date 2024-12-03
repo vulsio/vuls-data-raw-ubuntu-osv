@@ -1,176 +1,21 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-10976",
-	"modified": "2024-12-02T16:31:18Z",
-	"published": "2024-11-14T13:15:00Z",
+	"id": "USN-7132-1",
+	"modified": "2024-12-02T12:30:50.130613Z",
+	"published": "2024-12-02T12:30:50.130613Z",
 	"related": [
 		"CVE-2024-10976",
-		"USN-7132-1"
+		"CVE-2024-10977",
+		"CVE-2024-10978",
+		"CVE-2024-10979",
+		"UBUNTU-CVE-2024-10976",
+		"UBUNTU-CVE-2024-10977",
+		"UBUNTU-CVE-2024-10978",
+		"UBUNTU-CVE-2024-10979"
 	],
-	"details": "Incomplete tracking in PostgreSQL of tables with row security allows a reused query to view or change different rows from those intended. CVE-2023-2455 and CVE-2016-2193 fixed most interaction between row security and user ID changes.  They missed cases where a subquery, WITH query, security invoker view, or SQL-language function references a table with a row-level security policy.  This has the same consequences as the two earlier CVEs.  That is to say, it leads to potentially incorrect policies being applied in cases where role-specific policies are used and a given query is planned under one role and then executed under other roles.  This scenario can happen under security definer functions or when a common user and query is planned initially and then re-used across multiple SET ROLEs. Applying an incorrect policy may permit a user to complete otherwise-forbidden reads and modifications.  This affects only databases that have used CREATE POLICY to define a row security policy.  An attacker must tailor an attack to a particular application's pattern of query plan reuse, user ID changes, and role-specific row security policies.  Versions before PostgreSQL 17.1, 16.5, 15.9, 14.14, 13.17, and 12.21 are affected.",
+	"summary": "postgresql-12, postgresql-14, postgresql-16 vulnerabilities",
+	"details": "It was discovered that PostgreSQL incorrectly tracked tables with row\nsecurity. A remote attacker could possibly use this issue to perform\nforbidden reads and modifications. (CVE-2024-10976)\n\nJacob Champion discovered that PostgreSQL clients used untrusted server\nerror messages. An attacker that is able to intercept network\ncommunications could possibly use this issue to inject error messages that\ncould be interpreted as valid query results. (CVE-2024-10977)\n\nTom Lane discovered that PostgreSQL incorrectly handled certain privilege\nassignments. A remote attacker could possibly use this issue to view or\nchange different rows from those intended. (CVE-2024-10978)\n\nCoby Abrams discovered that PostgreSQL incorrectly handled environment\nvariables. A remote attacker could possibly use this issue to execute\narbitrary code. (CVE-2024-10979)\n",
 	"affected": [
-		{
-			"package": {
-				"ecosystem": "Ubuntu:Pro:14.04:LTS",
-				"name": "postgresql-9.3",
-				"purl": "pkg:deb/ubuntu/postgresql-9.3?arch=src?distro=trusty/esm"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"9.3.1-1",
-				"9.3.2-1",
-				"9.3.2-1ubuntu1",
-				"9.3.2-1ubuntu2",
-				"9.3.3-1",
-				"9.3.3-1bzr1",
-				"9.3.3-1bzr2",
-				"9.3.4-1",
-				"9.3.5-0ubuntu0.14.04.1",
-				"9.3.6-0ubuntu0.14.04",
-				"9.3.7-0ubuntu0.14.04",
-				"9.3.8-0ubuntu0.4.04",
-				"9.3.9-0ubuntu0.14.04",
-				"9.3.10-0ubuntu0.14.04",
-				"9.3.11-0ubuntu0.14.04",
-				"9.3.12-0ubuntu0.14.04",
-				"9.3.13-0ubuntu0.14.04",
-				"9.3.14-0ubuntu0.14.04",
-				"9.3.15-0ubuntu0.14.04",
-				"9.3.16-0ubuntu0.14.04",
-				"9.3.17-0ubuntu0.14.04",
-				"9.3.18-0ubuntu0.14.04.1",
-				"9.3.19-0ubuntu0.14.04",
-				"9.3.20-0ubuntu0.14.04",
-				"9.3.21-0ubuntu0.14.04",
-				"9.3.22-0ubuntu0.14.04",
-				"9.3.23-0ubuntu0.14.04",
-				"9.3.24-0ubuntu0.14.04",
-				"9.3.24-0ubuntu0.14.04+esm1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-10976.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:Pro:16.04:LTS",
-				"name": "postgresql-9.5",
-				"purl": "pkg:deb/ubuntu/postgresql-9.5?arch=src?distro=esm-infra/xenial"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"9.5.0-1",
-				"9.5.0-2",
-				"9.5.0-3",
-				"9.5.1-1",
-				"9.5.2-1",
-				"9.5.3-0ubuntu0.16.04",
-				"9.5.4-0ubuntu0.16.04",
-				"9.5.5-0ubuntu0.16.04",
-				"9.5.6-0ubuntu0.16.04",
-				"9.5.7-0ubuntu0.16.04",
-				"9.5.8-0ubuntu0.16.04.1",
-				"9.5.9-0ubuntu0.16.04",
-				"9.5.10-0ubuntu0.16.04",
-				"9.5.11-0ubuntu0.16.04",
-				"9.5.12-0ubuntu0.16.04",
-				"9.5.13-0ubuntu0.16.04",
-				"9.5.14-0ubuntu0.16.04",
-				"9.5.16-0ubuntu0.16.04.1",
-				"9.5.17-0ubuntu0.16.04.1",
-				"9.5.18-0ubuntu0.16.04.1",
-				"9.5.19-0ubuntu0.16.04.1",
-				"9.5.21-0ubuntu0.16.04.1",
-				"9.5.23-0ubuntu0.16.04.1",
-				"9.5.24-0ubuntu0.16.04.1",
-				"9.5.25-0ubuntu0.16.04.1",
-				"9.5.25-0ubuntu0.16.04.1+esm1",
-				"9.5.25-0ubuntu0.16.04.1+esm2",
-				"9.5.25-0ubuntu0.16.04.1+esm3",
-				"9.5.25-0ubuntu0.16.04.1+esm4",
-				"9.5.25-0ubuntu0.16.04.1+esm5",
-				"9.5.25-0ubuntu0.16.04.1+esm6",
-				"9.5.25-0ubuntu0.16.04.1+esm7",
-				"9.5.25-0ubuntu0.16.04.1+esm8"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-10976.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:Pro:18.04:LTS",
-				"name": "postgresql-10",
-				"purl": "pkg:deb/ubuntu/postgresql-10?arch=src?distro=esm-infra/bionic"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"10.1-1",
-				"10.1-2",
-				"10.2-1",
-				"10.3-1",
-				"10.4-0ubuntu0.18.04",
-				"10.5-0ubuntu0.18.04",
-				"10.6-0ubuntu0.18.04.1",
-				"10.7-0ubuntu0.18.04.1",
-				"10.8-0ubuntu0.18.04.1",
-				"10.9-0ubuntu0.18.04.1",
-				"10.10-0ubuntu0.18.04.1",
-				"10.12-0ubuntu0.18.04.1",
-				"10.14-0ubuntu0.18.04.1",
-				"10.15-0ubuntu0.18.04.1",
-				"10.16-0ubuntu0.18.04.1",
-				"10.17-0ubuntu0.18.04.1",
-				"10.18-0ubuntu0.18.04.1",
-				"10.19-0ubuntu0.18.04.1",
-				"10.20-0ubuntu0.18.04.1",
-				"10.21-0ubuntu0.18.04.1",
-				"10.22-0ubuntu0.18.04.1",
-				"10.23-0ubuntu0.18.04.1",
-				"10.23-0ubuntu0.18.04.2",
-				"10.23-0ubuntu0.18.04.2+esm1",
-				"10.23-0ubuntu0.18.04.2+esm2"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-10976.json"
-			}
-		},
 		{
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
@@ -310,11 +155,10 @@
 						"binary_name": "postgresql-server-dev-12",
 						"binary_version": "12.22-0ubuntu0.20.04.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-10976.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7132-1.json"
 			}
 		},
 		{
@@ -447,11 +291,10 @@
 						"binary_name": "postgresql-server-dev-14",
 						"binary_version": "14.15-0ubuntu0.22.04.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-10976.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7132-1.json"
 			}
 		},
 		{
@@ -574,11 +417,10 @@
 						"binary_name": "postgresql-server-dev-16",
 						"binary_version": "16.6-0ubuntu0.24.10.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-10976.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7132-1.json"
 			}
 		},
 		{
@@ -708,30 +550,33 @@
 						"binary_name": "postgresql-server-dev-16",
 						"binary_version": "16.6-0ubuntu0.24.04.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-10976.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7132-1.json"
 			}
 		}
 	],
 	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7132-1"
+		},
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-10976"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-10976"
+			"url": "https://ubuntu.com/security/CVE-2024-10977"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://www.postgresql.org/support/security/CVE-2024-10976/"
+			"url": "https://ubuntu.com/security/CVE-2024-10978"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7132-1"
+			"url": "https://ubuntu.com/security/CVE-2024-10979"
 		}
 	]
 }
