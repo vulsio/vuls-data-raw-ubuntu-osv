@@ -1,19 +1,38 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2019-6455",
-	"modified": "2024-12-05T04:33:39Z",
-	"published": "2019-01-16T18:29:00Z",
+	"id": "USN-7137-1",
+	"modified": "2024-12-04T20:22:08.926969Z",
+	"published": "2024-12-04T20:22:08.926969Z",
 	"related": [
+		"CVE-2019-11637",
+		"CVE-2019-11638",
+		"CVE-2019-11639",
+		"CVE-2019-11640",
 		"CVE-2019-6455",
-		"USN-7137-1"
+		"CVE-2019-6456",
+		"CVE-2019-6457",
+		"CVE-2019-6458",
+		"CVE-2019-6459",
+		"CVE-2019-6460",
+		"CVE-2021-46019",
+		"CVE-2021-46021",
+		"CVE-2021-46022",
+		"UBUNTU-CVE-2019-11637",
+		"UBUNTU-CVE-2019-11638",
+		"UBUNTU-CVE-2019-11639",
+		"UBUNTU-CVE-2019-11640",
+		"UBUNTU-CVE-2019-6455",
+		"UBUNTU-CVE-2019-6456",
+		"UBUNTU-CVE-2019-6457",
+		"UBUNTU-CVE-2019-6458",
+		"UBUNTU-CVE-2019-6459",
+		"UBUNTU-CVE-2019-6460",
+		"UBUNTU-CVE-2021-46019",
+		"UBUNTU-CVE-2021-46021",
+		"UBUNTU-CVE-2021-46022"
 	],
-	"details": "An issue was discovered in GNU Recutils 1.8. There is a double-free problem in the function rec_mset_elem_destroy() in the file rec-mset.c.",
-	"severity": [
-		{
-			"type": "CVSS_V3",
-			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
-		}
-	],
+	"summary": "recutils vulnerabilities",
+	"details": "It was discovered that recutils incorrectly handled memory when parsing\ncomments with the recparser utility. An attacker could possibly use this\nissue to cause a denial of service or run arbitrary commands.\n(CVE-2021-46019, CVE-2021-46021, CVE-2021-46022)\n\nIt was discovered that recutils incorrectly handled memory when parsing CSV\nfiles. An attacker could possibly use this issue to cause a denial of\nservice or run arbitrary commands. (CVE-2019-11637, CVE-2019-11638,\nCVE-2019-11639, CVE-2019-11640)\n\nIt was discovered that recutils incorrectly handled memory when parsing\nmaliciously crafted recfiles. An attacker could possibly use this issue to\ncause a denial of service. (CVE-2019-6455, CVE-2019-6456, CVE-2019-6457,\nCVE-2019-6458, CVE-2019-6459, CVE-2019-6460)\n",
 	"affected": [
 		{
 			"package": {
@@ -60,11 +79,10 @@
 						"binary_name": "recutils-dbgsym",
 						"binary_version": "1.7-1ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7137-1.json"
 			}
 		},
 		{
@@ -113,38 +131,10 @@
 						"binary_name": "recutils-dbgsym",
 						"binary_version": "1.7-2ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:20.04:LTS",
-				"name": "recutils",
-				"purl": "pkg:deb/ubuntu/recutils?arch=src?distro=focal"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1.7-3build1",
-				"1.8-1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7137-1.json"
 			}
 		},
 		{
@@ -193,37 +183,10 @@
 						"binary_name": "recutils-dbgsym",
 						"binary_version": "1.8-1ubuntu0.20.04.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:22.04:LTS",
-				"name": "recutils",
-				"purl": "pkg:deb/ubuntu/recutils?arch=src?distro=jammy"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1.8-1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7137-1.json"
 			}
 		},
 		{
@@ -271,132 +234,69 @@
 						"binary_name": "recutils-dbgsym",
 						"binary_version": "1.8-1ubuntu0.22.04.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:24.10",
-				"name": "recutils",
-				"purl": "pkg:deb/ubuntu/recutils?arch=src?distro=oracular"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "1.9-3build3"
-						}
-					]
-				}
-			],
-			"ecosystem_specific": {
-				"availability": "No subscription required",
-				"binaries": [
-					{
-						"binary_name": "librec-dev",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "librec1",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "librec1-dbgsym",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "recutils",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "recutils-dbgsym",
-						"binary_version": "1.9-3build3"
-					}
-				],
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:24.04:LTS",
-				"name": "recutils",
-				"purl": "pkg:deb/ubuntu/recutils?arch=src?distro=noble"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "1.9-3build3"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1.9-2",
-				"1.9-3"
-			],
-			"ecosystem_specific": {
-				"availability": "No subscription required",
-				"binaries": [
-					{
-						"binary_name": "librec-dev",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "librec1",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "librec1-dbgsym",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "recutils",
-						"binary_version": "1.9-3build3"
-					},
-					{
-						"binary_name": "recutils-dbgsym",
-						"binary_version": "1.9-3build3"
-					}
-				],
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2019/UBUNTU-CVE-2019-6455.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7137-1.json"
 			}
 		}
 	],
 	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7137-1"
+		},
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2019-6455"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://github.com/TeamSeri0us/pocs/tree/master/recutils"
+			"url": "https://ubuntu.com/security/CVE-2019-6456"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2019-6455"
+			"url": "https://ubuntu.com/security/CVE-2019-6457"
 		},
 		{
 			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7137-1"
+			"url": "https://ubuntu.com/security/CVE-2019-6458"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2019-6459"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2019-6460"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2019-11637"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2019-11638"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2019-11639"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2019-11640"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2021-46019"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2021-46021"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2021-46022"
 		}
 	]
 }
