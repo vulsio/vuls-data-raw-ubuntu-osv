@@ -1,15 +1,15 @@
 {
 	"schema_version": "1.6.0",
 	"id": "USN-7168-1",
-	"modified": "2024-12-17T16:33:03.090576Z",
-	"published": "2024-12-17T16:33:03.090576Z",
+	"modified": "2024-12-18T09:48:05.352370Z",
+	"published": "2024-12-18T09:48:05.352370Z",
 	"related": [
 		"CVE-2023-0341",
 		"CVE-2024-53849",
 		"UBUNTU-CVE-2023-0341",
 		"UBUNTU-CVE-2024-53849"
 	],
-	"summary": "EditorConfig vulnerabilities",
+	"summary": "editorconfig-core vulnerabilities",
 	"details": "It was discovered that EditorConfig improperly managed memory when handling\ncertain inputs, leading to overflows. An attacker could possibly use these\nissues to cause a denial of service, or execute arbitrary code.\n",
 	"affected": [
 		{
