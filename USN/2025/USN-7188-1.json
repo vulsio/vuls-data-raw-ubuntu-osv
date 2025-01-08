@@ -1,53 +1,15 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-36617",
-	"modified": "2025-01-08T04:33:53Z",
-	"published": "2024-11-29T18:15:00Z",
+	"id": "USN-7188-1",
+	"modified": "2025-01-08T00:32:34.122814Z",
+	"published": "2025-01-08T00:32:34.122814Z",
 	"related": [
 		"CVE-2024-36617",
-		"USN-7188-1"
+		"UBUNTU-CVE-2024-36617"
 	],
-	"details": "FFmpeg n6.1.1 has an integer overflow vulnerability in the FFmpeg CAF decoder.",
+	"summary": "ffmpeg vulnerability",
+	"details": "It was discovered that FFmpeg incorrectly handled certain input, which\ncould lead to an integer overflow. An attacker could possibly use this\nissue to cause a denial of service by crashing the application.\n",
 	"affected": [
-		{
-			"package": {
-				"ecosystem": "Ubuntu:Pro:14.04:LTS",
-				"name": "libav",
-				"purl": "pkg:deb/ubuntu/libav?arch=src?distro=esm-infra-legacy/trusty"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"6:0.8.7-1ubuntu2",
-				"6:9.10-1ubuntu1",
-				"6:9.10-1ubuntu2",
-				"6:9.10-1ubuntu5",
-				"6:9.10-1ubuntu6",
-				"6:9.10-1ubuntu7",
-				"6:9.11-2ubuntu1",
-				"6:9.11-2ubuntu2",
-				"6:9.13-0ubuntu0.14.04.1",
-				"6:9.14-0ubuntu0.14.04.1",
-				"6:9.16-0ubuntu0.14.04.1",
-				"6:9.18-0ubuntu0.14.04.1",
-				"6:9.20-0ubuntu0.14.04.1",
-				"6:9.20-0ubuntu0.14.04.1+esm1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
-			}
-		},
 		{
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
@@ -238,11 +200,10 @@
 						"binary_name": "libswscale-ffmpeg3-dbgsym",
 						"binary_version": "7:2.8.17-0ubuntu0.1+esm9"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7188-1.json"
 			}
 		},
 		{
@@ -433,43 +394,10 @@
 						"binary_name": "libswscale4-dbgsym",
 						"binary_version": "7:3.4.11-0ubuntu0.1+esm7"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:20.04:LTS",
-				"name": "ffmpeg",
-				"purl": "pkg:deb/ubuntu/ffmpeg?arch=src?distro=focal"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"7:4.1.4-1build2",
-				"7:4.2.1-2",
-				"7:4.2.1-2ubuntu1",
-				"7:4.2.2-1build1",
-				"7:4.2.2-1ubuntu1",
-				"7:4.2.4-1ubuntu0.1",
-				"7:4.2.7-0ubuntu0.1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7188-1.json"
 			}
 		},
 		{
@@ -654,43 +582,10 @@
 						"binary_name": "libswscale5-dbgsym",
 						"binary_version": "7:4.2.7-0ubuntu0.1+esm7"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:22.04:LTS",
-				"name": "ffmpeg",
-				"purl": "pkg:deb/ubuntu/ffmpeg?arch=src?distro=jammy"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"7:4.4-6ubuntu5",
-				"7:4.4.1-2ubuntu1",
-				"7:4.4.1-3ubuntu1",
-				"7:4.4.1-3ubuntu2",
-				"7:4.4.1-3ubuntu3",
-				"7:4.4.1-3ubuntu5",
-				"7:4.4.2-0ubuntu0.22.04.1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7188-1.json"
 			}
 		},
 		{
@@ -873,106 +768,21 @@
 						"binary_name": "libswscale5-dbgsym",
 						"binary_version": "7:4.4.2-0ubuntu0.22.04.1+esm6"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:24.10",
-				"name": "ffmpeg",
-				"purl": "pkg:deb/ubuntu/ffmpeg?arch=src?distro=oracular"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"7:6.1.1-3ubuntu5",
-				"7:6.1.1-4ubuntu1",
-				"7:6.1.1-4ubuntu2",
-				"7:6.1.1-4ubuntu3",
-				"7:6.1.1-5ubuntu1",
-				"7:6.1.1-5ubuntu2",
-				"7:6.1.1-5ubuntu3",
-				"7:7.0.2-1ubuntu1",
-				"7:7.0.2-3ubuntu1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:24.04:LTS",
-				"name": "ffmpeg",
-				"purl": "pkg:deb/ubuntu/ffmpeg?arch=src?distro=noble"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"7:6.0-6ubuntu1",
-				"7:6.0-9ubuntu1",
-				"7:6.1-2ubuntu1",
-				"7:6.1-3ubuntu1",
-				"7:6.1-4ubuntu1",
-				"7:6.1-5ubuntu1",
-				"7:6.1.1-1ubuntu1",
-				"7:6.1.1-3ubuntu1",
-				"7:6.1.1-3ubuntu5"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-36617.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7188-1.json"
 			}
 		}
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7188-1"
+		},
+		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-36617"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-36617"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://gist.github.com/1047524396/f20749f8addc8f86de9cfacf17ba29df"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://github.com/FFmpeg/FFmpeg/blob/n6.1.1/libavformat/cafdec.c#L274"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://github.com/ffmpeg/ffmpeg/commit/d973fcbcc2f944752ff10e6a76b0b2d9329937a7"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7188-1"
 		}
 	]
 }
