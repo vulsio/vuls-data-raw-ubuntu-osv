@@ -1,13 +1,14 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-45338",
-	"modified": "2025-01-10T04:31:24Z",
-	"published": "2024-12-18T21:15:00Z",
+	"id": "USN-7197-1",
+	"modified": "2025-01-09T16:31:08.853512Z",
+	"published": "2025-01-09T16:31:08.853512Z",
 	"related": [
 		"CVE-2024-45338",
-		"USN-7197-1"
+		"UBUNTU-CVE-2024-45338"
 	],
-	"details": "An attacker can craft an input to the Parse functions that would be processed non-linearly with respect to its length, resulting in extremely slow parsing. This could cause a denial of service.",
+	"summary": "golang-golang-x-net vulnerability",
+	"details": "Guido Vranken discovered that Go Networking handled input to the Parse\nfunctions inefficiently. An attacker could possibly use this issue to\ncause denial of service. This update addresses the issue in the\ngolang-golang-x-net and golang-golang-x-net-dev packages, as well as the\nlibrary vendored within adsys and juju-core.\n",
 	"affected": [
 		{
 			"package": {
@@ -45,11 +46,10 @@
 						"binary_name": "golang-golang-x-net-dev",
 						"binary_version": "1:0.0+git20160110.4fd4a9f-1ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -103,11 +103,10 @@
 						"binary_name": "juju-2.0-dbgsym",
 						"binary_version": "2.3.7-0ubuntu0.16.04.1+esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -145,11 +144,10 @@
 						"binary_name": "golang-golang-x-net-dev",
 						"binary_version": "1:0.0+git20170629.c81e7f2+dfsg-2ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -192,37 +190,10 @@
 						"binary_name": "adsys-windows",
 						"binary_version": "0.9.2~20.04.2ubuntu0.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:20.04:LTS",
-				"name": "golang-golang-x-net-dev",
-				"purl": "pkg:deb/ubuntu/golang-golang-x-net-dev?arch=src?distro=focal"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1:0.0+git20190811.74dc4d7+dfsg-1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -258,11 +229,10 @@
 						"binary_name": "golang-golang-x-net-dev",
 						"binary_version": "1:0.0+git20190811.74dc4d7+dfsg-1ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -317,39 +287,10 @@
 						"binary_name": "adsys-windows",
 						"binary_version": "0.14.3~22.04ubuntu0.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:22.04:LTS",
-				"name": "golang-golang-x-net",
-				"purl": "pkg:deb/ubuntu/golang-golang-x-net?arch=src?distro=jammy"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1:0.0+git20210119.5f4716e+dfsg-4",
-				"1:0.0+git20210805.aaa1db6+dfsg-1",
-				"1:0.0+git20211209.491a49a+dfsg-1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -383,11 +324,10 @@
 						"binary_name": "golang-golang-x-net-dev",
 						"binary_version": "1:0.0+git20211209.491a49a+dfsg-1ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -429,40 +369,10 @@
 						"binary_name": "adsys-windows",
 						"binary_version": "0.15.2ubuntu0.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:24.10",
-				"name": "golang-golang-x-net",
-				"purl": "pkg:deb/ubuntu/golang-golang-x-net?arch=src?distro=oracular"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1:0.21.0+dfsg-1",
-				"1:0.25.0+dfsg-1",
-				"1:0.26.0+dfsg-1",
-				"1:0.26.0+dfsg-2"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -510,40 +420,10 @@
 						"binary_name": "adsys-windows",
 						"binary_version": "0.14.3~24.04ubuntu0.1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Ubuntu:24.04:LTS",
-				"name": "golang-golang-x-net",
-				"purl": "pkg:deb/ubuntu/golang-golang-x-net?arch=src?distro=noble"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1:0.10.0-1",
-				"1:0.17.0+dfsg-1",
-				"1:0.20.0+dfsg-1",
-				"1:0.21.0+dfsg-1"
-			],
-			"ecosystem_specific": {
-				"ubuntu_priority": "medium"
-			},
-			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		},
 		{
@@ -578,46 +458,21 @@
 						"binary_name": "golang-golang-x-net-dev",
 						"binary_version": "1:0.21.0+dfsg-1ubuntu0.1~esm1"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-45338.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7197-1.json"
 			}
 		}
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7197-1"
+		},
+		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-45338"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-45338"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://go.dev/cl/637536"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://go.dev/issue/70906"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://groups.google.com/g/golang-announce/c/wSCRmFnNmPA/m/Lvcd0mRMAwAJ"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://pkg.go.dev/vuln/GO-2024-3333"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://go-review.googlesource.com/c/net/+/637536"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7197-1"
 		}
 	]
 }
