@@ -10,7 +10,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "ca-certificates",
-				"purl": "pkg:deb/ubuntu/ca-certificates?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/ca-certificates@20170717~14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -50,7 +50,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "ca-certificates",
-				"purl": "pkg:deb/ubuntu/ca-certificates?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/ca-certificates@20170717~16.04.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{

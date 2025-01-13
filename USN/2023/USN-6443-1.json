@@ -7,13 +7,11 @@
 		"CVE-2023-42752",
 		"CVE-2023-42755",
 		"CVE-2023-42756",
-		"CVE-2023-4881",
 		"CVE-2023-5197",
 		"UBUNTU-CVE-2023-4244",
 		"UBUNTU-CVE-2023-42752",
 		"UBUNTU-CVE-2023-42755",
 		"UBUNTU-CVE-2023-42756",
-		"UBUNTU-CVE-2023-4881",
 		"UBUNTU-CVE-2023-5197"
 	],
 	"summary": "linux-oem-6.1 vulnerabilities",
@@ -23,7 +21,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-oem-6.1",
-				"purl": "pkg:deb/ubuntu/linux-oem-6.1?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-oem-6.1@6.1.0-1024.24?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -119,10 +117,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6443-1"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-4881"
 		},
 		{
 			"type": "REPORT",

@@ -28,7 +28,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws-5.15",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.15@5.15.0-1044.49~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -125,7 +125,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm-5.15",
-				"purl": "pkg:deb/ubuntu/linux-ibm-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm-5.15@5.15.0-1037.40~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -199,7 +199,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle-5.15",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.15@5.15.0-1042.48~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -287,7 +287,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.15.0-1044.49?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -393,7 +393,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.15.0-1042.48?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

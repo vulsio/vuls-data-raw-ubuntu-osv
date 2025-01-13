@@ -20,7 +20,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-aws-5.4",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.4@5.4.0-1121.131~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -167,7 +167,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1125.134~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -308,7 +308,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-raspi-5.4",
-				"purl": "pkg:deb/ubuntu/linux-raspi-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi-5.4@5.4.0-1105.117~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -440,7 +440,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.4.0-1121.131?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -600,7 +600,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.4.0-1105.117?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -736,7 +736,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-xilinx-zynqmp",
-				"purl": "pkg:deb/ubuntu/linux-xilinx-zynqmp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-xilinx-zynqmp@5.4.0-1040.44?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

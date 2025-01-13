@@ -20,7 +20,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-lowlatency-hwe-5.15",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15@5.15.0-58.64~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -139,7 +139,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle-5.15",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.15@5.15.0-1027.33~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -214,7 +214,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.15.0-1013.17?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -297,7 +297,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-intel-iotg",
-				"purl": "pkg:deb/ubuntu/linux-intel-iotg?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-intel-iotg@5.15.0-1023.28?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -396,7 +396,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency@5.15.0-58.64?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

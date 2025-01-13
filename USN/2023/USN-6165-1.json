@@ -4,15 +4,11 @@
 	"modified": "2023-06-14T13:26:19.963471Z",
 	"published": "2023-06-14T13:26:19.963471Z",
 	"related": [
-		"CVE-2023-24593",
-		"CVE-2023-25180",
 		"CVE-2023-29499",
 		"CVE-2023-32611",
 		"CVE-2023-32636",
 		"CVE-2023-32643",
 		"CVE-2023-32665",
-		"UBUNTU-CVE-2023-24593",
-		"UBUNTU-CVE-2023-25180",
 		"UBUNTU-CVE-2023-29499",
 		"UBUNTU-CVE-2023-32611",
 		"UBUNTU-CVE-2023-32636",
@@ -26,7 +22,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "glib2.0",
-				"purl": "pkg:deb/ubuntu/glib2.0?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/glib2.0@2.64.6-1~ubuntu20.04.6?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -118,7 +114,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "glib2.0",
-				"purl": "pkg:deb/ubuntu/glib2.0?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/glib2.0@2.72.4-0ubuntu2.2?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -204,14 +200,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6165-1"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-24593"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-25180"
 		},
 		{
 			"type": "REPORT",

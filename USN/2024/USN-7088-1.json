@@ -101,7 +101,6 @@
 		"CVE-2024-44946",
 		"CVE-2024-44947",
 		"CVE-2024-44948",
-		"CVE-2024-44952",
 		"CVE-2024-44954",
 		"CVE-2024-44960",
 		"CVE-2024-44965",
@@ -336,7 +335,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1139.148~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -490,7 +489,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-200.220~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -845,7 +844,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-ibm-5.4",
-				"purl": "pkg:deb/ubuntu/linux-ibm-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-ibm-5.4@5.4.0-1082.87~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -981,7 +980,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-200.220?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1487,7 +1486,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1139.148?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1653,7 +1652,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.4.0-1102.106?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1808,7 +1807,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.4.0-1082.87?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2340,10 +2339,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-44948"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2024-44952"
 		},
 		{
 			"type": "REPORT",

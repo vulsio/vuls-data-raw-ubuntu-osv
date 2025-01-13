@@ -20,7 +20,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "klibc",
-				"purl": "pkg:deb/ubuntu/klibc?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/klibc@2.0.3-0ubuntu1.14.04.3+esm2?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -85,7 +85,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "klibc",
-				"purl": "pkg:deb/ubuntu/klibc?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/klibc@2.0.4-8ubuntu1.16.04.4+esm1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -141,7 +141,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "klibc",
-				"purl": "pkg:deb/ubuntu/klibc?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/klibc@2.0.4-9ubuntu2.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -185,7 +185,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "klibc",
-				"purl": "pkg:deb/ubuntu/klibc?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/klibc@2.0.7-1ubuntu5.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

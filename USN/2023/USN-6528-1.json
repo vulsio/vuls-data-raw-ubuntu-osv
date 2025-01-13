@@ -4,11 +4,9 @@
 	"modified": "2023-11-29T23:00:14.831039Z",
 	"published": "2023-11-29T23:00:14.831039Z",
 	"related": [
-		"CVE-2022-40433",
 		"CVE-2023-22025",
 		"CVE-2023-22067",
 		"CVE-2023-22081",
-		"UBUNTU-CVE-2022-40433",
 		"UBUNTU-CVE-2023-22025",
 		"UBUNTU-CVE-2023-22067",
 		"UBUNTU-CVE-2023-22081"
@@ -20,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u392-ga-1~16.04?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -144,7 +142,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u392-ga-1~18.04?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -234,7 +232,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u392-ga-1~20.04?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -317,7 +315,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u392-ga-1~22.04?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -390,7 +388,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u392-ga-1~23.10?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -461,10 +459,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6528-1"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2022-40433"
 		},
 		{
 			"type": "REPORT",

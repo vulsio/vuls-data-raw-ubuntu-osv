@@ -34,7 +34,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-aws-6.2",
-				"purl": "pkg:deb/ubuntu/linux-aws-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-aws-6.2@6.2.0-1015.15~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -118,7 +118,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-azure-6.2",
-				"purl": "pkg:deb/ubuntu/linux-azure-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-azure-6.2@6.2.0-1016.16~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -201,7 +201,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-azure-fde-6.2",
-				"purl": "pkg:deb/ubuntu/linux-azure-fde-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-azure-fde-6.2@6.2.0-1016.16~22.04.1.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -245,7 +245,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gcp-6.2",
-				"purl": "pkg:deb/ubuntu/linux-gcp-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gcp-6.2@6.2.0-1018.20~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -320,7 +320,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-hwe-6.2",
-				"purl": "pkg:deb/ubuntu/linux-hwe-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-hwe-6.2@6.2.0-36.37~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -485,7 +485,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency-hwe-6.2",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.2@6.2.0-1016.16~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

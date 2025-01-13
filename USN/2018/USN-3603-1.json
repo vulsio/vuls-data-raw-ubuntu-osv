@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "paramiko",
-				"purl": "pkg:deb/ubuntu/paramiko?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/paramiko@1.10.1-1git1ubuntu0.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -55,7 +55,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "paramiko",
-				"purl": "pkg:deb/ubuntu/paramiko?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/paramiko@1.16.0-1ubuntu0.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{

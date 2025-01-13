@@ -11,7 +11,6 @@
 		"CVE-2022-1198",
 		"CVE-2022-1353",
 		"CVE-2022-1516",
-		"CVE-2022-1966",
 		"CVE-2022-21499",
 		"CVE-2022-23036",
 		"CVE-2022-23037",
@@ -32,7 +31,6 @@
 		"UBUNTU-CVE-2022-1198",
 		"UBUNTU-CVE-2022-1353",
 		"UBUNTU-CVE-2022-1516",
-		"UBUNTU-CVE-2022-1966",
 		"UBUNTU-CVE-2022-21499",
 		"UBUNTU-CVE-2022-23036",
 		"UBUNTU-CVE-2022-23037",
@@ -54,7 +52,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws-5.4",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.4@5.4.0-1078.84~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -166,7 +164,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-5.4",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.4@5.4.0-1083.87~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -279,7 +277,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1078.84~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -385,7 +383,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gke-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gke-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gke-5.4@5.4.0-1074.79~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -484,7 +482,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gkeop-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gkeop-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gkeop-5.4@5.4.0-1046.48~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -595,7 +593,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-117.132~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1035,7 +1033,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-ibm-5.4",
-				"purl": "pkg:deb/ubuntu/linux-ibm-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-ibm-5.4@5.4.0-1026.29~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1123,7 +1121,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oracle-5.4",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.4@5.4.0-1076.83~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1228,7 +1226,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-raspi-5.4",
-				"purl": "pkg:deb/ubuntu/linux-raspi-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi-5.4@5.4.0-1065.75~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1326,7 +1324,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-117.132?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1782,7 +1780,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.4.0-1078.84?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1907,7 +1905,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.4.0-1083.87?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2030,7 +2028,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure-fde",
-				"purl": "pkg:deb/ubuntu/linux-azure-fde?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure-fde@5.4.0-1083.87+cvm1.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2082,7 +2080,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1078.84?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2198,7 +2196,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gke",
-				"purl": "pkg:deb/ubuntu/linux-gke?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gke@5.4.0-1074.79?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2292,7 +2290,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.4.0-1046.48?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2398,7 +2396,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.4.0-1026.29?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2493,7 +2491,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.4.0-1068.72?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2601,7 +2599,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.4.0-1076.83?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2716,7 +2714,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.4.0-1065.75?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2847,10 +2845,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2022-1516"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2022-1966"
 		},
 		{
 			"type": "REPORT",

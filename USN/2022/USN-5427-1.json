@@ -28,7 +28,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "apport",
-				"purl": "pkg:deb/ubuntu/apport?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/apport@2.20.9-0ubuntu7.28?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -145,7 +145,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "apport",
-				"purl": "pkg:deb/ubuntu/apport?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/apport@2.20.11-0ubuntu27.24?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -244,7 +244,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "apport",
-				"purl": "pkg:deb/ubuntu/apport?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/apport@2.20.11-0ubuntu82.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

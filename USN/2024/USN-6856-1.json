@@ -16,7 +16,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "fontforge",
-				"purl": "pkg:deb/ubuntu/fontforge?arch=src?distro=esm-apps/xenial"
+				"purl": "pkg:deb/ubuntu/fontforge@20120731.b-7.1ubuntu0.1+esm1?arch=source&distro=esm-apps/xenial"
 			},
 			"ranges": [
 				{
@@ -102,7 +102,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "fontforge",
-				"purl": "pkg:deb/ubuntu/fontforge?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/fontforge@1:20170731~dfsg-1ubuntu0.1~esm1?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -170,7 +170,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "fontforge",
-				"purl": "pkg:deb/ubuntu/fontforge?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/fontforge@1:20190801~dfsg-4ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -265,7 +265,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "fontforge",
-				"purl": "pkg:deb/ubuntu/fontforge?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/fontforge@1:20201107~dfsg-4+deb11u1build0.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -345,7 +345,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "fontforge",
-				"purl": "pkg:deb/ubuntu/fontforge?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/fontforge@1:20230101~dfsg-1ubuntu0.1?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{

@@ -10,7 +10,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "nginx",
-				"purl": "pkg:deb/ubuntu/nginx?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/nginx@1.4.6-1ubuntu3.7?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -130,7 +130,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "nginx",
-				"purl": "pkg:deb/ubuntu/nginx?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/nginx@1.10.0-0ubuntu0.16.04.4?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{

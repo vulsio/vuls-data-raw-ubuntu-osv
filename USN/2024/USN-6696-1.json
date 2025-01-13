@@ -24,7 +24,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u402-ga-2ubuntu1~18.04?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -115,7 +115,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u402-ga-2ubuntu1~20.04?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -199,7 +199,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u402-ga-2ubuntu1~22.04?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -273,7 +273,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u402-ga-2ubuntu1~23.10.1?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{

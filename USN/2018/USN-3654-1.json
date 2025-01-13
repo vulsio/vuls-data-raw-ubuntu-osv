@@ -38,7 +38,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux@4.4.0-127.153?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -934,7 +934,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.4.0-1060.69?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -1037,7 +1037,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.4.0-1026.31?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{

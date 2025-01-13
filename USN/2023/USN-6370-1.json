@@ -18,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "modsecurity-apache",
-				"purl": "pkg:deb/ubuntu/modsecurity-apache?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/modsecurity-apache@2.7.7-2ubuntu0.1~esm1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -65,7 +65,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "modsecurity-apache",
-				"purl": "pkg:deb/ubuntu/modsecurity-apache?arch=src?distro=esm-apps/xenial"
+				"purl": "pkg:deb/ubuntu/modsecurity-apache@2.9.0-1ubuntu0.1~esm1?arch=source&distro=esm-apps/xenial"
 			},
 			"ranges": [
 				{
@@ -108,7 +108,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "modsecurity-apache",
-				"purl": "pkg:deb/ubuntu/modsecurity-apache?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/modsecurity-apache@2.9.2-1ubuntu0.1~esm1?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -148,7 +148,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "modsecurity-apache",
-				"purl": "pkg:deb/ubuntu/modsecurity-apache?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/modsecurity-apache@2.9.3-1ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -187,7 +187,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:22.04:LTS",
 				"name": "modsecurity-apache",
-				"purl": "pkg:deb/ubuntu/modsecurity-apache?arch=src?distro=esm-apps/jammy"
+				"purl": "pkg:deb/ubuntu/modsecurity-apache@2.9.5-1ubuntu0.1~esm1?arch=source&distro=esm-apps/jammy"
 			},
 			"ranges": [
 				{

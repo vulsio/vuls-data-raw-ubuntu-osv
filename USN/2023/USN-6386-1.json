@@ -6,11 +6,9 @@
 	"related": [
 		"CVE-2023-20588",
 		"CVE-2023-40283",
-		"CVE-2023-4128",
 		"CVE-2023-4569",
 		"UBUNTU-CVE-2023-20588",
 		"UBUNTU-CVE-2023-40283",
-		"UBUNTU-CVE-2023-4128",
 		"UBUNTU-CVE-2023-4569"
 	],
 	"summary": "linux, linux-aws, linux-aws-5.15, linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia vulnerabilities",
@@ -20,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws-5.15",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.15@5.15.0-1045.50~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -118,7 +116,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure-5.15",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.15@5.15.0-1047.54~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -218,7 +216,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure-fde-5.15",
-				"purl": "pkg:deb/ubuntu/linux-azure-fde-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure-fde-5.15@5.15.0-1047.54~20.04.1.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -274,7 +272,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp-5.15",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.15@5.15.0-1042.50~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -368,7 +366,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gkeop-5.15",
-				"purl": "pkg:deb/ubuntu/linux-gkeop-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gkeop-5.15@5.15.0-1028.33~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -462,7 +460,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-hwe-5.15",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.15@5.15.0-84.93~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -636,7 +634,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm-5.15",
-				"purl": "pkg:deb/ubuntu/linux-ibm-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm-5.15@5.15.0-1038.41~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -711,7 +709,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-lowlatency-hwe-5.15",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15@5.15.0-84.93~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -844,7 +842,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux@5.15.0-84.93?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1039,7 +1037,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.15.0-1045.50?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1146,7 +1144,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.15.0-1047.54?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1254,7 +1252,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-azure-fde",
-				"purl": "pkg:deb/ubuntu/linux-azure-fde?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-azure-fde@5.15.0-1047.54.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1309,7 +1307,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.15.0-1042.50?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1410,7 +1408,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gke",
-				"purl": "pkg:deb/ubuntu/linux-gke?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gke@5.15.0-1042.47?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1510,7 +1508,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.15.0-1028.33?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1607,7 +1605,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.15.0-1038.41?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1713,7 +1711,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.15.0-1042.47?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1809,7 +1807,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency@5.15.0-84.93?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1953,7 +1951,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-nvidia",
-				"purl": "pkg:deb/ubuntu/linux-nvidia?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-nvidia@5.15.0-1033.33?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -2091,10 +2089,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6386-1"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-4128"
 		},
 		{
 			"type": "REPORT",

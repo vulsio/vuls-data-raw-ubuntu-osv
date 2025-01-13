@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "nltk",
-				"purl": "pkg:deb/ubuntu/nltk?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/nltk@3.1-1ubuntu0.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -55,7 +55,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nltk",
-				"purl": "pkg:deb/ubuntu/nltk?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nltk@3.2.5-1ubuntu0.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{

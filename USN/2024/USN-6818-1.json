@@ -75,7 +75,6 @@
 		"CVE-2023-52633",
 		"CVE-2023-52635",
 		"CVE-2023-52664",
-		"CVE-2023-52666",
 		"CVE-2023-52667",
 		"CVE-2023-52669",
 		"CVE-2023-52670",
@@ -90,7 +89,6 @@
 		"CVE-2023-52681",
 		"CVE-2023-52682",
 		"CVE-2023-52683",
-		"CVE-2023-52685",
 		"CVE-2023-52686",
 		"CVE-2023-52687",
 		"CVE-2023-52690",
@@ -225,7 +223,6 @@
 		"UBUNTU-CVE-2023-52633",
 		"UBUNTU-CVE-2023-52635",
 		"UBUNTU-CVE-2023-52664",
-		"UBUNTU-CVE-2023-52666",
 		"UBUNTU-CVE-2023-52667",
 		"UBUNTU-CVE-2023-52669",
 		"UBUNTU-CVE-2023-52670",
@@ -240,7 +237,6 @@
 		"UBUNTU-CVE-2023-52681",
 		"UBUNTU-CVE-2023-52682",
 		"UBUNTU-CVE-2023-52683",
-		"UBUNTU-CVE-2023-52685",
 		"UBUNTU-CVE-2023-52686",
 		"UBUNTU-CVE-2023-52687",
 		"UBUNTU-CVE-2023-52690",
@@ -312,7 +308,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gcp-6.5",
-				"purl": "pkg:deb/ubuntu/linux-gcp-6.5?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gcp-6.5@6.5.0-1022.24~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -391,7 +387,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency-hwe-6.5",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.5?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.5@6.5.0-41.41.1~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -514,7 +510,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux@6.5.0-41.41?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -677,7 +673,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-gcp@6.5.0-1022.24?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -763,7 +759,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency@6.5.0-41.41.1?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -893,7 +889,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-raspi@6.5.0-1018.21?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -1275,10 +1271,6 @@
 		},
 		{
 			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-52666"
-		},
-		{
-			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2023-52667"
 		},
 		{
@@ -1332,10 +1324,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2023-52683"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-52685"
 		},
 		{
 			"type": "REPORT",

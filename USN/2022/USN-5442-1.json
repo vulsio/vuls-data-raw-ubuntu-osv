@@ -18,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws-5.4",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.4@5.4.0-1075.80~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -129,7 +129,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-5.4",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.4@5.4.0-1080.83~18.04.2?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -241,7 +241,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gke-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gke-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gke-5.4@5.4.0-1072.77~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -339,7 +339,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-113.127~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -778,7 +778,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-113.127?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1233,7 +1233,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.4.0-1075.80?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1357,7 +1357,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.4.0-1080.83?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1479,7 +1479,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure-fde",
-				"purl": "pkg:deb/ubuntu/linux-azure-fde?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure-fde@5.4.0-1080.83+cvm1.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1530,7 +1530,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1075.80?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1645,7 +1645,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gke",
-				"purl": "pkg:deb/ubuntu/linux-gke?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gke@5.4.0-1072.77?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1738,7 +1738,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.4.0-1023.25?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1832,7 +1832,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.4.0-1065.68?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

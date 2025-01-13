@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=esm-apps/xenial"
+				"purl": "pkg:deb/ubuntu/rapidjson@0.12~git20141031-3ubuntu0.1~esm1?arch=source&distro=esm-apps/xenial"
 			},
 			"ranges": [
 				{
@@ -53,7 +53,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/rapidjson@1.1.0+dfsg2-3ubuntu0.1~esm1?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -93,7 +93,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:20.04:LTS",
 				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=esm-apps/focal"
+				"purl": "pkg:deb/ubuntu/rapidjson@1.1.0+dfsg2-5ubuntu1+esm1?arch=source&distro=esm-apps/focal"
 			},
 			"ranges": [
 				{
@@ -133,7 +133,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:22.04:LTS",
 				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=esm-apps/jammy"
+				"purl": "pkg:deb/ubuntu/rapidjson@1.1.0+dfsg2-7ubuntu0.1~esm1?arch=source&distro=esm-apps/jammy"
 			},
 			"ranges": [
 				{
@@ -172,7 +172,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.10",
 				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=oracular"
+				"purl": "pkg:deb/ubuntu/rapidjson@1.1.0+dfsg2-7.3ubuntu0.1?arch=source&distro=oracular"
 			},
 			"ranges": [
 				{
@@ -213,7 +213,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:24.04:LTS",
 				"name": "rapidjson",
-				"purl": "pkg:deb/ubuntu/rapidjson?arch=src?distro=esm-apps/noble"
+				"purl": "pkg:deb/ubuntu/rapidjson@1.1.0+dfsg2-7.2ubuntu0.1~esm1?arch=source&distro=esm-apps/noble"
 			},
 			"ranges": [
 				{

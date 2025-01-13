@@ -72,7 +72,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-aws-hwe",
-				"purl": "pkg:deb/ubuntu/linux-aws-hwe?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-aws-hwe@4.15.0-1170.183~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -237,7 +237,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-gcp@4.15.0-1164.181~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -417,7 +417,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-hwe",
-				"purl": "pkg:deb/ubuntu/linux-hwe?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-hwe@4.15.0-227.239~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -820,7 +820,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-oracle@4.15.0-1133.144~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -976,7 +976,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux@4.15.0-227.239?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -1385,7 +1385,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.15.0-1170.183?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -1573,7 +1573,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-gcp-4.15",
-				"purl": "pkg:deb/ubuntu/linux-gcp-4.15?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-4.15@4.15.0-1164.181?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -1707,7 +1707,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.15.0-1154.159?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -1876,7 +1876,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle@4.15.0-1133.144?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{

@@ -18,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-390",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390@390.141-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -149,7 +149,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-450",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450@450.102.04-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -325,7 +325,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-460",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460@460.32.03-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -497,7 +497,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-390",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390@390.141-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -619,7 +619,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-450",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450@450.102.04-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -795,7 +795,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-460",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460@460.32.03-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

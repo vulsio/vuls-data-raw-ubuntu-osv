@@ -16,7 +16,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "webkit2gtk",
-				"purl": "pkg:deb/ubuntu/webkit2gtk?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/webkit2gtk@2.46.3-0ubuntu0.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -94,7 +94,15 @@
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
+						"binary_name": "libjavascriptcoregtk-4.0-18-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
 						"binary_name": "libjavascriptcoregtk-4.0-bin",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
+						"binary_name": "libjavascriptcoregtk-4.0-bin-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
@@ -106,6 +114,10 @@
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
+						"binary_name": "libjavascriptcoregtk-4.1-0-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
 						"binary_name": "libjavascriptcoregtk-4.1-dev",
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
@@ -114,11 +126,19 @@
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
+						"binary_name": "libjavascriptcoregtk-6.0-1-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
 						"binary_name": "libjavascriptcoregtk-6.0-dev",
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
 						"binary_name": "libwebkit2gtk-4.0-37",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
+						"binary_name": "libwebkit2gtk-4.0-37-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
@@ -134,6 +154,10 @@
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
+						"binary_name": "libwebkit2gtk-4.1-0-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
 						"binary_name": "libwebkit2gtk-4.1-dev",
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
@@ -142,11 +166,19 @@
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
+						"binary_name": "libwebkitgtk-6.0-4-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
 						"binary_name": "libwebkitgtk-6.0-dev",
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					},
 					{
 						"binary_name": "webkit2gtk-driver",
+						"binary_version": "2.46.3-0ubuntu0.22.04.1"
+					},
+					{
+						"binary_name": "webkit2gtk-driver-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.22.04.1"
 					}
 				]
@@ -159,7 +191,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.10",
 				"name": "webkit2gtk",
-				"purl": "pkg:deb/ubuntu/webkit2gtk?arch=src?distro=oracular"
+				"purl": "pkg:deb/ubuntu/webkit2gtk@2.46.3-0ubuntu0.24.10.1?arch=source&distro=oracular"
 			},
 			"ranges": [
 				{
@@ -212,11 +244,19 @@
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
 					{
+						"binary_name": "libjavascriptcoregtk-4.1-0-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.24.10.1"
+					},
+					{
 						"binary_name": "libjavascriptcoregtk-4.1-dev",
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
 					{
 						"binary_name": "libjavascriptcoregtk-6.0-1",
+						"binary_version": "2.46.3-0ubuntu0.24.10.1"
+					},
+					{
+						"binary_name": "libjavascriptcoregtk-6.0-1-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
 					{
@@ -228,6 +268,10 @@
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
 					{
+						"binary_name": "libjavascriptcoregtk-bin-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.24.10.1"
+					},
+					{
 						"binary_name": "libwebkit2gtk-4.0-doc",
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
@@ -236,11 +280,19 @@
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
 					{
+						"binary_name": "libwebkit2gtk-4.1-0-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.24.10.1"
+					},
+					{
 						"binary_name": "libwebkit2gtk-4.1-dev",
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
 					{
 						"binary_name": "libwebkitgtk-6.0-4",
+						"binary_version": "2.46.3-0ubuntu0.24.10.1"
+					},
+					{
+						"binary_name": "libwebkitgtk-6.0-4-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					},
 					{
@@ -258,6 +310,10 @@
 					{
 						"binary_name": "webkitgtk-webdriver",
 						"binary_version": "2.46.3-0ubuntu0.24.10.1"
+					},
+					{
+						"binary_name": "webkitgtk-webdriver-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.24.10.1"
 					}
 				]
 			},
@@ -269,7 +325,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "webkit2gtk",
-				"purl": "pkg:deb/ubuntu/webkit2gtk?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/webkit2gtk@2.46.3-0ubuntu0.24.04.1?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -325,11 +381,19 @@
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
 					{
+						"binary_name": "libjavascriptcoregtk-4.1-0-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.24.04.1"
+					},
+					{
 						"binary_name": "libjavascriptcoregtk-4.1-dev",
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
 					{
 						"binary_name": "libjavascriptcoregtk-6.0-1",
+						"binary_version": "2.46.3-0ubuntu0.24.04.1"
+					},
+					{
+						"binary_name": "libjavascriptcoregtk-6.0-1-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
 					{
@@ -341,6 +405,10 @@
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
 					{
+						"binary_name": "libjavascriptcoregtk-bin-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.24.04.1"
+					},
+					{
 						"binary_name": "libwebkit2gtk-4.0-doc",
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
@@ -349,11 +417,19 @@
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
 					{
+						"binary_name": "libwebkit2gtk-4.1-0-dbgsym",
+						"binary_version": "2.46.3-0ubuntu0.24.04.1"
+					},
+					{
 						"binary_name": "libwebkit2gtk-4.1-dev",
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
 					{
 						"binary_name": "libwebkitgtk-6.0-4",
+						"binary_version": "2.46.3-0ubuntu0.24.04.1"
+					},
+					{
+						"binary_name": "libwebkitgtk-6.0-4-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					},
 					{
@@ -366,6 +442,10 @@
 					},
 					{
 						"binary_name": "webkit2gtk-driver",
+						"binary_version": "2.46.3-0ubuntu0.24.04.1"
+					},
+					{
+						"binary_name": "webkit2gtk-driver-dbgsym",
 						"binary_version": "2.46.3-0ubuntu0.24.04.1"
 					}
 				]

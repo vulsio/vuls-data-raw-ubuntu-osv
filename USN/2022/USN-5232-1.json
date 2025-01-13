@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "fail2ban",
-				"purl": "pkg:deb/ubuntu/fail2ban?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/fail2ban@0.8.11-1ubuntu0.1~esm1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -51,7 +51,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "fail2ban",
-				"purl": "pkg:deb/ubuntu/fail2ban?arch=src?distro=esm-apps/xenial"
+				"purl": "pkg:deb/ubuntu/fail2ban@0.9.3-1ubuntu0.1~esm1?arch=source&distro=esm-apps/xenial"
 			},
 			"ranges": [
 				{
@@ -86,7 +86,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "fail2ban",
-				"purl": "pkg:deb/ubuntu/fail2ban?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/fail2ban@0.10.2-2ubuntu0.1~esm1?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -123,7 +123,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:20.04:LTS",
 				"name": "fail2ban",
-				"purl": "pkg:deb/ubuntu/fail2ban?arch=src?distro=esm-apps/focal"
+				"purl": "pkg:deb/ubuntu/fail2ban@0.11.1-1ubuntu0.1~esm1?arch=source&distro=esm-apps/focal"
 			},
 			"ranges": [
 				{

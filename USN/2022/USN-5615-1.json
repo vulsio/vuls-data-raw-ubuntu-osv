@@ -6,10 +6,8 @@
 	"related": [
 		"CVE-2020-35525",
 		"CVE-2020-35527",
-		"CVE-2021-20223",
 		"UBUNTU-CVE-2020-35525",
-		"UBUNTU-CVE-2020-35527",
-		"UBUNTU-CVE-2021-20223"
+		"UBUNTU-CVE-2020-35527"
 	],
 	"summary": "sqlite3 vulnerabilities",
 	"details": "It was discovered that SQLite incorrectly handled INTERSEC query\nprocessing. An attacker could use this issue to cause SQLite to crash,\nresulting in a denial of service, or possibly execute arbitrary code.\n(CVE-2020-35525)\n\nIt was discovered that SQLite incorrectly handled ALTER TABLE for views\nthat have a nested FROM clause.  An attacker could use this issue to cause\nSQLite to crash, resulting in a denial of service, or possibly execute\narbitrary code. This issue was only addressed in Ubuntu 20.04 LTS.\n(CVE-2020-35527)\n\nIt was discovered that SQLite incorrectly handled embedded null characters\nwhen tokenizing certain unicode strings. This issue could result in\nincorrect results. This issue only affected Ubuntu 20.04 LTS.\n(CVE-2021-20223)\n",
@@ -18,7 +16,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "sqlite3",
-				"purl": "pkg:deb/ubuntu/sqlite3?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/sqlite3@3.22.0-1ubuntu0.6?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -97,7 +95,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "sqlite3",
-				"purl": "pkg:deb/ubuntu/sqlite3?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/sqlite3@3.31.1-4ubuntu0.4?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -185,10 +183,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2020-35527"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2021-20223"
 		}
 	]
 }

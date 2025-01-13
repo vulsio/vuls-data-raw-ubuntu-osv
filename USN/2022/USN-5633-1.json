@@ -34,7 +34,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.15.0-1018.24?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -116,7 +116,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gke",
-				"purl": "pkg:deb/ubuntu/linux-gke?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gke@5.15.0-1016.19?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -196,7 +196,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.15.0-1015.17?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

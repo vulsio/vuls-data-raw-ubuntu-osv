@@ -5,11 +5,9 @@
 	"published": "2023-11-01T21:27:02.696522Z",
 	"related": [
 		"CVE-2023-42756",
-		"CVE-2023-4881",
 		"CVE-2023-4921",
 		"CVE-2023-5197",
 		"UBUNTU-CVE-2023-42756",
-		"UBUNTU-CVE-2023-4881",
 		"UBUNTU-CVE-2023-4921",
 		"UBUNTU-CVE-2023-5197"
 	],
@@ -20,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-starfive",
-				"purl": "pkg:deb/ubuntu/linux-starfive?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-starfive@6.5.0-1003.4?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -89,10 +87,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6454-4"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-4881"
 		},
 		{
 			"type": "REPORT",

@@ -26,7 +26,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-5.4",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.4@5.4.0-1103.109~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -150,7 +150,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-raspi-5.4",
-				"purl": "pkg:deb/ubuntu/linux-raspi-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi-5.4@5.4.0-1080.91~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -259,7 +259,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-139.156?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -728,7 +728,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.4.0-1096.104?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -865,7 +865,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.4.0-1103.109?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -999,7 +999,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.4.0-1064.68?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1117,7 +1117,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.4.0-1086.92?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1237,7 +1237,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.4.0-1093.102?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1364,7 +1364,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.4.0-1080.91?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

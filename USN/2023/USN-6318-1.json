@@ -11,7 +11,6 @@
 		"CVE-2023-3611",
 		"CVE-2023-3776",
 		"CVE-2023-3777",
-		"CVE-2023-3995",
 		"CVE-2023-4004",
 		"CVE-2023-4015",
 		"UBUNTU-CVE-2022-40982",
@@ -21,7 +20,6 @@
 		"UBUNTU-CVE-2023-3611",
 		"UBUNTU-CVE-2023-3776",
 		"UBUNTU-CVE-2023-3777",
-		"UBUNTU-CVE-2023-3995",
 		"UBUNTU-CVE-2023-4004",
 		"UBUNTU-CVE-2023-4015"
 	],
@@ -32,7 +30,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-aws-6.2",
-				"purl": "pkg:deb/ubuntu/linux-aws-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-aws-6.2@6.2.0-1010.10~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -111,7 +109,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-hwe-6.2",
-				"purl": "pkg:deb/ubuntu/linux-hwe-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-hwe-6.2@6.2.0-31.31~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -271,7 +269,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency-hwe-6.2",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.2@6.2.0-1011.11~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -416,10 +414,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2023-3777"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-3995"
 		},
 		{
 			"type": "REPORT",

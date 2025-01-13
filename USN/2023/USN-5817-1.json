@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "python-setuptools",
-				"purl": "pkg:deb/ubuntu/python-setuptools?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/python-setuptools@3.3-1ubuntu2+esm1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -76,7 +76,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "python-setuptools",
-				"purl": "pkg:deb/ubuntu/python-setuptools?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/python-setuptools@20.7.0-1ubuntu0.1~esm1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -141,7 +141,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "python-setuptools",
-				"purl": "pkg:deb/ubuntu/python-setuptools?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/python-setuptools@39.0.1-2ubuntu0.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -204,7 +204,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "python-setuptools",
-				"purl": "pkg:deb/ubuntu/python-setuptools?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/python-setuptools@44.0.0-2ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -254,7 +254,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "setuptools",
-				"purl": "pkg:deb/ubuntu/setuptools?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/setuptools@45.2.0-1ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -297,7 +297,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "python-setuptools",
-				"purl": "pkg:deb/ubuntu/python-setuptools?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/python-setuptools@44.1.1-1.2ubuntu0.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -349,7 +349,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "setuptools",
-				"purl": "pkg:deb/ubuntu/setuptools?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/setuptools@59.6.0-1.2ubuntu0.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

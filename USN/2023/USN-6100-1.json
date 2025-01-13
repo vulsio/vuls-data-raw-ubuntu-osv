@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "libhtml-stripscripts-perl",
-				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl@1.05-1ubuntu0.1~esm1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -49,7 +49,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "libhtml-stripscripts-perl",
-				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl?arch=src?distro=esm-apps/xenial"
+				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl@1.05-2ubuntu0.1~esm1?arch=source&distro=esm-apps/xenial"
 			},
 			"ranges": [
 				{
@@ -84,7 +84,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "libhtml-stripscripts-perl",
-				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl@1.06-1ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -119,7 +119,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "libhtml-stripscripts-perl",
-				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl@1.06-1ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -154,7 +154,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "libhtml-stripscripts-perl",
-				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/libhtml-stripscripts-perl@1.06-1ubuntu0.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

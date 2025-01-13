@@ -10,7 +10,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "fossil",
-				"purl": "pkg:deb/ubuntu/fossil?arch=src?distro=esm-apps/xenial"
+				"purl": "pkg:deb/ubuntu/fossil@1:1.33-3ubuntu0.1~esm1?arch=source&distro=esm-apps/xenial"
 			},
 			"ranges": [
 				{
@@ -49,7 +49,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "fossil",
-				"purl": "pkg:deb/ubuntu/fossil?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/fossil@1:2.5-1ubuntu0.1~esm1?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -91,7 +91,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "fossil",
-				"purl": "pkg:deb/ubuntu/fossil?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/fossil@1:2.10-1ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -131,7 +131,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "fossil",
-				"purl": "pkg:deb/ubuntu/fossil?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/fossil@1:2.18-1ubuntu0.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -175,7 +175,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "fossil",
-				"purl": "pkg:deb/ubuntu/fossil?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/fossil@1:2.22-1ubuntu0.1?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -216,7 +216,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "fossil",
-				"purl": "pkg:deb/ubuntu/fossil?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/fossil@1:2.23-1ubuntu0.1?arch=source&distro=noble"
 			},
 			"ranges": [
 				{

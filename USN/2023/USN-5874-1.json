@@ -26,7 +26,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws-5.4",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.4@5.4.0-1096.104~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -151,7 +151,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1100.109~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -269,7 +269,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-139.156~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -723,7 +723,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-ibm-5.4",
-				"purl": "pkg:deb/ubuntu/linux-ibm-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-ibm-5.4@5.4.0-1044.49~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -823,7 +823,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oracle-5.4",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.4@5.4.0-1093.102~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -940,7 +940,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1100.109?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1069,7 +1069,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.4.0-1044.49?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

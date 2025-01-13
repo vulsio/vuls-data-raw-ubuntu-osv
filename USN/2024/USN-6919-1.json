@@ -274,7 +274,6 @@
 		"CVE-2024-35910",
 		"CVE-2024-35912",
 		"CVE-2024-35915",
-		"CVE-2024-35918",
 		"CVE-2024-35922",
 		"CVE-2024-35925",
 		"CVE-2024-35930",
@@ -620,7 +619,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.15.0-1058.61?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1813,10 +1812,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-35915"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2024-35918"
 		},
 		{
 			"type": "REPORT",

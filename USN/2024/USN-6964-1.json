@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "orc",
-				"purl": "pkg:deb/ubuntu/orc?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/orc@1:0.4.31-1ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -70,7 +70,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "orc",
-				"purl": "pkg:deb/ubuntu/orc?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/orc@1:0.4.32-2ubuntu0.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -127,7 +127,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "orc",
-				"purl": "pkg:deb/ubuntu/orc?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/orc@1:0.4.38-1ubuntu0.1?arch=source&distro=noble"
 			},
 			"ranges": [
 				{

@@ -75,7 +75,6 @@
 		"CVE-2023-52633",
 		"CVE-2023-52635",
 		"CVE-2023-52664",
-		"CVE-2023-52666",
 		"CVE-2023-52667",
 		"CVE-2023-52669",
 		"CVE-2023-52670",
@@ -90,7 +89,6 @@
 		"CVE-2023-52681",
 		"CVE-2023-52682",
 		"CVE-2023-52683",
-		"CVE-2023-52685",
 		"CVE-2023-52686",
 		"CVE-2023-52687",
 		"CVE-2023-52690",
@@ -225,7 +223,6 @@
 		"UBUNTU-CVE-2023-52633",
 		"UBUNTU-CVE-2023-52635",
 		"UBUNTU-CVE-2023-52664",
-		"UBUNTU-CVE-2023-52666",
 		"UBUNTU-CVE-2023-52667",
 		"UBUNTU-CVE-2023-52669",
 		"UBUNTU-CVE-2023-52670",
@@ -240,7 +237,6 @@
 		"UBUNTU-CVE-2023-52681",
 		"UBUNTU-CVE-2023-52682",
 		"UBUNTU-CVE-2023-52683",
-		"UBUNTU-CVE-2023-52685",
 		"UBUNTU-CVE-2023-52686",
 		"UBUNTU-CVE-2023-52687",
 		"UBUNTU-CVE-2023-52690",
@@ -312,7 +308,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-nvidia-6.5",
-				"purl": "pkg:deb/ubuntu/linux-nvidia-6.5?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-nvidia-6.5@6.5.0-1021.22?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -721,10 +717,6 @@
 		},
 		{
 			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-52666"
-		},
-		{
-			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2023-52667"
 		},
 		{
@@ -778,10 +770,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2023-52683"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-52685"
 		},
 		{
 			"type": "REPORT",

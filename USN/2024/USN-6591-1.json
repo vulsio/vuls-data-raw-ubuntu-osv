@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "postfix",
-				"purl": "pkg:deb/ubuntu/postfix?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/postfix@2.11.0-1ubuntu1.2+esm2?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -81,7 +81,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "postfix",
-				"purl": "pkg:deb/ubuntu/postfix?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/postfix@3.1.0-3ubuntu0.4+esm2?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -155,7 +155,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "postfix",
-				"purl": "pkg:deb/ubuntu/postfix?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/postfix@3.3.0-1ubuntu0.4+esm2?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -263,7 +263,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "postfix",
-				"purl": "pkg:deb/ubuntu/postfix?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/postfix@3.4.13-0ubuntu1.3?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -371,7 +371,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "postfix",
-				"purl": "pkg:deb/ubuntu/postfix?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/postfix@3.6.4-1ubuntu1.2?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -478,7 +478,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "postfix",
-				"purl": "pkg:deb/ubuntu/postfix?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/postfix@3.8.1-2ubuntu0.1?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{

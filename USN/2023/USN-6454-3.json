@@ -5,11 +5,9 @@
 	"published": "2023-10-31T22:42:00.568592Z",
 	"related": [
 		"CVE-2023-42756",
-		"CVE-2023-4881",
 		"CVE-2023-4921",
 		"CVE-2023-5197",
 		"UBUNTU-CVE-2023-42756",
-		"UBUNTU-CVE-2023-4881",
 		"UBUNTU-CVE-2023-4921",
 		"UBUNTU-CVE-2023-5197"
 	],
@@ -20,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-laptop",
-				"purl": "pkg:deb/ubuntu/linux-laptop?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-laptop@6.5.0-1005.8?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -93,10 +91,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6454-3"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-4881"
 		},
 		{
 			"type": "REPORT",

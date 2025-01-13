@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "mpg123",
-				"purl": "pkg:deb/ubuntu/mpg123?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/mpg123@1.25.13-1ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -74,7 +74,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "mpg123",
-				"purl": "pkg:deb/ubuntu/mpg123?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/mpg123@1.29.3-1ubuntu0.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -144,7 +144,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.10",
 				"name": "mpg123",
-				"purl": "pkg:deb/ubuntu/mpg123?arch=src?distro=oracular"
+				"purl": "pkg:deb/ubuntu/mpg123@1.32.7-1ubuntu0.1?arch=source&distro=oracular"
 			},
 			"ranges": [
 				{
@@ -213,7 +213,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "mpg123",
-				"purl": "pkg:deb/ubuntu/mpg123?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/mpg123@1.32.5-1ubuntu1.1?arch=source&distro=noble"
 			},
 			"ranges": [
 				{

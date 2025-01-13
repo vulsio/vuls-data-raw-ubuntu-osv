@@ -22,7 +22,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws-5.4",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.4@5.4.0-1025.25~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -100,7 +100,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-5.4",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.4@5.4.0-1026.26~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -178,7 +178,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1025.25~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -248,7 +248,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-48.52~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -648,7 +648,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oracle-5.4",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.4@5.4.0-1025.25~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -718,7 +718,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-raspi-5.4",
-				"purl": "pkg:deb/ubuntu/linux-raspi-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi-5.4@5.4.0-1019.21~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -784,7 +784,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-48.52?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1200,7 +1200,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.4.0-1025.25?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1290,7 +1290,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.4.0-1026.26?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1378,7 +1378,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1025.25?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1458,7 +1458,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.4.0-1024.24?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1534,7 +1534,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.4.0-1025.25?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1614,7 +1614,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.4.0-1019.21?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

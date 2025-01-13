@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "aptdaemon",
-				"purl": "pkg:deb/ubuntu/aptdaemon?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/aptdaemon@1.1.1+bzr982-0ubuntu14.4?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -80,7 +80,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "aptdaemon",
-				"purl": "pkg:deb/ubuntu/aptdaemon?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/aptdaemon@1.1.1+bzr982-0ubuntu19.4?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -143,7 +143,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "aptdaemon",
-				"purl": "pkg:deb/ubuntu/aptdaemon?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/aptdaemon@1.1.1+bzr982-0ubuntu32.2?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

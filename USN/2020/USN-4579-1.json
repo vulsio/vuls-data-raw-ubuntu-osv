@@ -20,7 +20,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.4.0-1081.85?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -83,7 +83,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "linux-lts-xenial",
-				"purl": "pkg:deb/ubuntu/linux-lts-xenial?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/linux-lts-xenial@4.4.0-193.224~14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -202,7 +202,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux@4.4.0-193.224?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -1208,7 +1208,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.4.0-1117.131?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -1356,7 +1356,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.4.0-1082.91?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -1479,7 +1479,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-raspi2",
-				"purl": "pkg:deb/ubuntu/linux-raspi2?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-raspi2@4.4.0-1141.151?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -1628,7 +1628,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-snapdragon",
-				"purl": "pkg:deb/ubuntu/linux-snapdragon?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-snapdragon@4.4.0-1145.155?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{

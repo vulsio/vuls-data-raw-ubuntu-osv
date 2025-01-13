@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux@6.8.0-36.36?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -168,7 +168,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-ibm@6.8.0-1007.7?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -252,7 +252,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency@6.8.0-36.36.1?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -373,7 +373,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-nvidia",
-				"purl": "pkg:deb/ubuntu/linux-nvidia?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-nvidia@6.8.0-1008.8?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -476,7 +476,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-raspi@6.8.0-1006.6?arch=source&distro=noble"
 			},
 			"ranges": [
 				{

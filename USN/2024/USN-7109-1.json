@@ -62,7 +62,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "golang-1.18",
-				"purl": "pkg:deb/ubuntu/golang-1.18?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/golang-1.18@1.18.1-1ubuntu1~18.04.4+esm1?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -110,7 +110,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "golang-1.18",
-				"purl": "pkg:deb/ubuntu/golang-1.18?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/golang-1.18@1.18.1-1ubuntu1~20.04.3?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -162,7 +162,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "golang-1.18",
-				"purl": "pkg:deb/ubuntu/golang-1.18?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/golang-1.18@1.18.1-1ubuntu1.2?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

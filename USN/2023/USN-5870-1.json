@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "apr-util",
-				"purl": "pkg:deb/ubuntu/apr-util?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/apr-util@1.5.3-1ubuntu0.1~esm2?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -109,7 +109,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "apr-util",
-				"purl": "pkg:deb/ubuntu/apr-util?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/apr-util@1.5.4-1ubuntu0.1~esm2?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -202,7 +202,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "apr-util",
-				"purl": "pkg:deb/ubuntu/apr-util?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/apr-util@1.6.1-2ubuntu0.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -268,7 +268,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "apr-util",
-				"purl": "pkg:deb/ubuntu/apr-util?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/apr-util@1.6.1-4ubuntu2.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -333,7 +333,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "apr-util",
-				"purl": "pkg:deb/ubuntu/apr-util?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/apr-util@1.6.1-5ubuntu4.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

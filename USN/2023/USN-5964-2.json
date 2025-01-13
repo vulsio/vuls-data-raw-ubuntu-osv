@@ -18,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "curl",
-				"purl": "pkg:deb/ubuntu/curl?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/curl@7.35.0-1ubuntu2.20+esm15?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -163,7 +163,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "curl",
-				"purl": "pkg:deb/ubuntu/curl?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/curl@7.47.0-1ubuntu2.19+esm8?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{

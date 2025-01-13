@@ -18,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-390",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390@390.144-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -152,7 +152,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-418-server",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-418-server?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-418-server@418.211.00-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -254,7 +254,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-450-server",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450-server?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450-server@450.142.00-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -434,7 +434,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-460",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460@460.91.03-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -685,7 +685,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-460-server",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460-server?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460-server@460.91.03-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -790,7 +790,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "nvidia-graphics-drivers-470",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-470?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-470@470.57.02-0ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -962,7 +962,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-390",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-390@390.144-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1086,7 +1086,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-418-server",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-418-server?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-418-server@418.211.00-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1188,7 +1188,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-450-server",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450-server?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-450-server@450.142.00-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1368,7 +1368,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-460",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460@460.91.03-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1619,7 +1619,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-460-server",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460-server?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-460-server@460.91.03-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1724,7 +1724,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "nvidia-graphics-drivers-470",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-470?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-470@470.57.02-0ubuntu0.20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

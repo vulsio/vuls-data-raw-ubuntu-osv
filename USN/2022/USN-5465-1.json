@@ -4,10 +4,8 @@
 	"modified": "2022-06-08T01:25:26.185291Z",
 	"published": "2022-06-08T01:25:26.185291Z",
 	"related": [
-		"CVE-2022-1966",
 		"CVE-2022-21499",
 		"CVE-2022-30594",
-		"UBUNTU-CVE-2022-1966",
 		"UBUNTU-CVE-2022-21499",
 		"UBUNTU-CVE-2022-30594"
 	],
@@ -18,7 +16,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.4.0-1107.113?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -156,7 +154,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "linux-lts-xenial",
-				"purl": "pkg:deb/ubuntu/linux-lts-xenial?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/linux-lts-xenial@4.4.0-227.261~14.04.1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -521,7 +519,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux@4.4.0-227.261?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -947,7 +945,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.4.0-1143.158?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -1116,7 +1114,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.4.0-1108.118?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -1261,10 +1259,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-5465-1"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2022-1966"
 		},
 		{
 			"type": "REPORT",

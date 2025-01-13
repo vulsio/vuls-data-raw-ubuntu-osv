@@ -42,7 +42,6 @@
 		"CVE-2024-36960",
 		"CVE-2024-36964",
 		"CVE-2024-36971",
-		"CVE-2024-37353",
 		"CVE-2024-37356",
 		"CVE-2024-38381",
 		"CVE-2024-38549",
@@ -178,7 +177,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.4.0-1135.142?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -496,10 +495,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-36971"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2024-37353"
 		},
 		{
 			"type": "REPORT",

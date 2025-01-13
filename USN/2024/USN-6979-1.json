@@ -49,7 +49,6 @@
 		"CVE-2024-36960",
 		"CVE-2024-36964",
 		"CVE-2024-36971",
-		"CVE-2024-37353",
 		"CVE-2024-37356",
 		"CVE-2024-38381",
 		"CVE-2024-38549",
@@ -192,7 +191,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-raspi-5.4",
-				"purl": "pkg:deb/ubuntu/linux-raspi-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi-5.4@5.4.0-1114.126~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -513,10 +512,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-36971"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2024-37353"
 		},
 		{
 			"type": "REPORT",

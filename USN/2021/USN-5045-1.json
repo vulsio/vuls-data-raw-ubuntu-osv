@@ -7,11 +7,9 @@
 		"CVE-2021-34693",
 		"CVE-2021-3564",
 		"CVE-2021-3573",
-		"CVE-2021-3587",
 		"UBUNTU-CVE-2021-34693",
 		"UBUNTU-CVE-2021-3564",
-		"UBUNTU-CVE-2021-3573",
-		"UBUNTU-CVE-2021-3587"
+		"UBUNTU-CVE-2021-3573"
 	],
 	"summary": "linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-gke, linux-gke-5.4, linux-gkeop, linux-gkeop-5.4, linux-hwe-5.4, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-raspi-5.4 vulnerabilities",
 	"details": "Norbert Slusarek discovered that the CAN broadcast manger (bcm) protocol\nimplementation in the Linux kernel did not properly initialize memory in\nsome situations. A local attacker could use this to expose sensitive\ninformation (kernel memory). (CVE-2021-34693)\n\nIt was discovered that the bluetooth subsystem in the Linux kernel did not\nproperly handle HCI device initialization failure, leading to a double-free\nvulnerability. An attacker could use this to cause a denial of service or\npossibly execute arbitrary code. (CVE-2021-3564)\n\nIt was discovered that the bluetooth subsystem in the Linux kernel did not\nproperly handle HCI device detach events, leading to a use-after-free\nvulnerability. An attacker could use this to cause a denial of service or\npossibly execute arbitrary code. (CVE-2021-3573)\n\nIt was discovered that the NFC implementation in the Linux kernel did not\nproperly handle failed connect events leading to a NULL pointer\ndereference. A local attacker could use this to cause a denial of service.\n(CVE-2021-3587)\n",
@@ -20,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws-5.4",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.4@5.4.0-1055.58~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -116,7 +114,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-5.4",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.4@5.4.0-1056.58~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -211,7 +209,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1051.55~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -298,7 +296,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gke-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gke-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gke-5.4@5.4.0-1051.54~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -380,7 +378,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gkeop-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gkeop-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gkeop-5.4@5.4.0-1022.23~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -474,7 +472,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-81.91~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -895,7 +893,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oracle-5.4",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.4@5.4.0-1053.57~18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -983,7 +981,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-raspi-5.4",
-				"purl": "pkg:deb/ubuntu/linux-raspi-5.4?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi-5.4@5.4.0-1042.46~18.04.3?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1065,7 +1063,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-81.91?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1502,7 +1500,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.4.0-1055.58?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1610,7 +1608,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.4.0-1056.58?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1715,7 +1713,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1051.55?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1812,7 +1810,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gke",
-				"purl": "pkg:deb/ubuntu/linux-gke?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gke@5.4.0-1051.54?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1889,7 +1887,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.4.0-1022.23?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1978,7 +1976,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.4.0-1045.47?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2069,7 +2067,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.4.0-1053.57?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2167,7 +2165,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.4.0-1042.46?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2262,10 +2260,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2021-3573"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2021-3587"
 		},
 		{
 			"type": "REPORT",

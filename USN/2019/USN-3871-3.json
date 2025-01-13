@@ -38,7 +38,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.15.0-1032.34?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -126,7 +126,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp@4.15.0-1027.28?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -209,7 +209,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.15.0-1029.29?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -289,7 +289,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oem",
-				"purl": "pkg:deb/ubuntu/linux-oem?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oem@4.15.0-1033.38?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -506,7 +506,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-raspi2",
-				"purl": "pkg:deb/ubuntu/linux-raspi2?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi2@4.15.0-1031.33?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{

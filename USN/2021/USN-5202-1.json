@@ -40,7 +40,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u312-b07-0ubuntu1~16.04?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -158,7 +158,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u312-b07-0ubuntu1~18.04?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -242,7 +242,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "openjdk-lts",
-				"purl": "pkg:deb/ubuntu/openjdk-lts?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/openjdk-lts@11.0.13+8-0ubuntu1~18.04?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -329,7 +329,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "openjdk-8",
-				"purl": "pkg:deb/ubuntu/openjdk-8?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/openjdk-8@8u312-b07-0ubuntu1~20.04?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -406,7 +406,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "openjdk-lts",
-				"purl": "pkg:deb/ubuntu/openjdk-lts?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/openjdk-lts@11.0.13+8-0ubuntu1~20.04?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

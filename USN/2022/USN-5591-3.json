@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux@4.15.0-192.203?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -528,7 +528,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-4.15",
-				"purl": "pkg:deb/ubuntu/linux-azure-4.15?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-4.15@4.15.0-1150.165?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -645,7 +645,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-dell300x",
-				"purl": "pkg:deb/ubuntu/linux-dell300x?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-dell300x@4.15.0-1052.57?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -737,7 +737,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp-4.15",
-				"purl": "pkg:deb/ubuntu/linux-gcp-4.15?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-4.15@4.15.0-1135.151?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -845,7 +845,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.15.0-1126.131?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -988,7 +988,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-snapdragon",
-				"purl": "pkg:deb/ubuntu/linux-snapdragon?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-snapdragon@4.15.0-1136.146?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{

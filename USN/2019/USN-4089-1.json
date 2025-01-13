@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "ruby-rack",
-				"purl": "pkg:deb/ubuntu/ruby-rack?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/ruby-rack@1.6.4-3ubuntu0.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -51,7 +51,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "ruby-rack",
-				"purl": "pkg:deb/ubuntu/ruby-rack?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/ruby-rack@1.6.4-4ubuntu0.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{

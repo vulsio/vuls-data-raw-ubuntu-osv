@@ -60,7 +60,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws-5.15",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.15@5.15.0-1041.46~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -155,7 +155,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-hwe-5.15",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.15@5.15.0-79.86~20.04.2?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -326,7 +326,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-intel-iotg-5.15",
-				"purl": "pkg:deb/ubuntu/linux-intel-iotg-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-intel-iotg-5.15@5.15.0-1037.42~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -433,7 +433,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-lowlatency-hwe-5.15",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15@5.15.0-79.88~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -563,7 +563,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle-5.15",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.15@5.15.0-1040.46~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -649,7 +649,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux@5.15.0-79.86?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -841,7 +841,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.15.0-1042.47?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -945,7 +945,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.15.0-1039.47?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1043,7 +1043,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.15.0-1035.38?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1146,7 +1146,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-intel-iotg",
-				"purl": "pkg:deb/ubuntu/linux-intel-iotg?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-intel-iotg@5.15.0-1037.42?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1256,7 +1256,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.15.0-1039.44?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1349,7 +1349,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency@5.15.0-79.88?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1490,7 +1490,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-nvidia",
-				"purl": "pkg:deb/ubuntu/linux-nvidia?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-nvidia@5.15.0-1030.30?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1624,7 +1624,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.15.0-1040.46?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1718,7 +1718,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.15.0-1035.38?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

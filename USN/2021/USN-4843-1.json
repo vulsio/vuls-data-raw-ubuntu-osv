@@ -54,7 +54,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "phpmyadmin",
-				"purl": "pkg:deb/ubuntu/phpmyadmin?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/phpmyadmin@4:4.0.10-1ubuntu0.1+esm4?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -96,7 +96,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "phpmyadmin",
-				"purl": "pkg:deb/ubuntu/phpmyadmin?arch=src?distro=esm-apps/xenial"
+				"purl": "pkg:deb/ubuntu/phpmyadmin@4:4.5.4.1-2ubuntu2.1+esm6?arch=source&distro=esm-apps/xenial"
 			},
 			"ranges": [
 				{
@@ -147,7 +147,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "phpmyadmin",
-				"purl": "pkg:deb/ubuntu/phpmyadmin?arch=src?distro=esm-apps/bionic"
+				"purl": "pkg:deb/ubuntu/phpmyadmin@4:4.6.6-5ubuntu0.5+esm1?arch=source&distro=esm-apps/bionic"
 			},
 			"ranges": [
 				{
@@ -185,7 +185,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:20.04:LTS",
 				"name": "phpmyadmin",
-				"purl": "pkg:deb/ubuntu/phpmyadmin?arch=src?distro=esm-apps/focal"
+				"purl": "pkg:deb/ubuntu/phpmyadmin@4:4.9.5+dfsg1-2ubuntu0.1~esm1?arch=source&distro=esm-apps/focal"
 			},
 			"ranges": [
 				{

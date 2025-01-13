@@ -5,11 +5,9 @@
 	"published": "2023-10-30T16:13:25.361824Z",
 	"related": [
 		"CVE-2023-42756",
-		"CVE-2023-4881",
 		"CVE-2023-4921",
 		"CVE-2023-5197",
 		"UBUNTU-CVE-2023-42756",
-		"UBUNTU-CVE-2023-4881",
 		"UBUNTU-CVE-2023-4921",
 		"UBUNTU-CVE-2023-5197"
 	],
@@ -20,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-aws@6.5.0-1009.9?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -99,7 +97,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-azure@6.5.0-1008.8?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -182,7 +180,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-gcp@6.5.0-1008.8?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -257,7 +255,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-oracle@6.5.0-1011.11?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -332,7 +330,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/linux-raspi@6.5.0-1006.8?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{
@@ -404,10 +402,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6454-2"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-4881"
 		},
 		{
 			"type": "REPORT",

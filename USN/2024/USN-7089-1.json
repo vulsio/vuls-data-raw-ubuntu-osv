@@ -404,7 +404,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gcp-6.8",
-				"purl": "pkg:deb/ubuntu/linux-gcp-6.8?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gcp-6.8@6.8.0-1017.19~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -477,7 +477,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-hwe-6.8",
-				"purl": "pkg:deb/ubuntu/linux-hwe-6.8?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-hwe-6.8@6.8.0-48.48~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -600,7 +600,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux@6.8.0-48.48?arch=source&distro=noble"
 			},
 			"ranges": [
 				{

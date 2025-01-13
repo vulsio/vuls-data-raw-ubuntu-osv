@@ -58,7 +58,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1140.149~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -213,7 +213,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-202.222~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -569,7 +569,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-ibm-5.4",
-				"purl": "pkg:deb/ubuntu/linux-ibm-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-ibm-5.4@5.4.0-1083.88~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -706,7 +706,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-202.222?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1213,7 +1213,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1140.149?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1380,7 +1380,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.4.0-1083.88?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1524,7 +1524,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.4.0-1124.132?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1682,7 +1682,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.4.0-1120.132?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1833,7 +1833,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-xilinx-zynqmp",
-				"purl": "pkg:deb/ubuntu/linux-xilinx-zynqmp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-xilinx-zynqmp@5.4.0-1055.59?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

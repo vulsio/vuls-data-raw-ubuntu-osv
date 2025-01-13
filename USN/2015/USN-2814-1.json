@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "nvidia-graphics-drivers-304",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-304?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-304@304.131-0ubuntu0.14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -82,7 +82,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "nvidia-graphics-drivers-304-updates",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-304-updates?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-304-updates@304.131-0ubuntu0.14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -158,7 +158,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "nvidia-graphics-drivers-340",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-340?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-340@340.96-0ubuntu0.14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -238,7 +238,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "nvidia-graphics-drivers-340-updates",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-340-updates?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-340-updates@340.96-0ubuntu0.14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -318,7 +318,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "nvidia-graphics-drivers-352",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-352?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-352@352.63-0ubuntu0.14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -386,7 +386,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "nvidia-graphics-drivers-352-updates",
-				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-352-updates?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/nvidia-graphics-drivers-352-updates@352.63-0ubuntu0.14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{

@@ -34,7 +34,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-aws-hwe",
-				"purl": "pkg:deb/ubuntu/linux-aws-hwe?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-aws-hwe@4.15.0-1153.166~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -182,7 +182,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-hwe",
-				"purl": "pkg:deb/ubuntu/linux-hwe?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-hwe@4.15.0-208.219~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -568,7 +568,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-oracle@4.15.0-1116.127~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{

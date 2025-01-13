@@ -32,7 +32,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws-5.15",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.15@5.15.0-1034.38~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -120,7 +120,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure-5.15",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.15@5.15.0-1036.43~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -210,7 +210,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp-5.15",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.15@5.15.0-1032.40~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -294,7 +294,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gke-5.15",
-				"purl": "pkg:deb/ubuntu/linux-gke-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gke-5.15@5.15.0-1031.36~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -374,7 +374,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-lowlatency-hwe-5.15",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-5.15@5.15.0-70.77~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -497,7 +497,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle-5.15",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.15@5.15.0-1033.39~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -576,7 +576,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux@5.15.0-70.77?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -761,7 +761,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.15.0-1034.38?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -858,7 +858,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.15.0-1036.43?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -956,7 +956,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-azure-fde",
-				"purl": "pkg:deb/ubuntu/linux-azure-fde?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-azure-fde@5.15.0-1036.43.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1002,7 +1002,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.15.0-1032.40?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1094,7 +1094,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gke",
-				"purl": "pkg:deb/ubuntu/linux-gke?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gke@5.15.0-1031.36?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1183,7 +1183,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.15.0-1018.23?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1270,7 +1270,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.15.0-1028.31?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1366,7 +1366,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.15.0-1031.36?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1452,7 +1452,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency@5.15.0-70.77?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1586,7 +1586,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.15.0-1033.39?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1673,7 +1673,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-raspi",
-				"purl": "pkg:deb/ubuntu/linux-raspi?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-raspi@5.15.0-1027.29?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

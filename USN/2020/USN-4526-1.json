@@ -32,7 +32,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:14.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=trusty"
+				"purl": "pkg:deb/ubuntu/linux-azure@4.15.0-1096.106~14.04.1?arch=source&distro=trusty"
 			},
 			"ranges": [
 				{
@@ -69,7 +69,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-aws-hwe",
-				"purl": "pkg:deb/ubuntu/linux-aws-hwe?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-aws-hwe@4.15.0-1083.87~16.04.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -174,7 +174,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-azure@4.15.0-1096.106~16.04.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -310,7 +310,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-gcp@4.15.0-1084.95~16.04.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -429,7 +429,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-hwe",
-				"purl": "pkg:deb/ubuntu/linux-hwe?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-hwe@4.15.0-118.119~16.04.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -898,7 +898,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-oracle@4.15.0-1054.58~16.04.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -993,7 +993,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux@4.15.0-118.119?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1463,7 +1463,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.15.0-1083.87?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1586,7 +1586,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-4.15",
-				"purl": "pkg:deb/ubuntu/linux-azure-4.15?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-4.15@4.15.0-1096.106?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1667,7 +1667,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp-4.15",
-				"purl": "pkg:deb/ubuntu/linux-gcp-4.15?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-4.15@4.15.0-1084.95?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1739,7 +1739,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gke-4.15",
-				"purl": "pkg:deb/ubuntu/linux-gke-4.15?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gke-4.15@4.15.0-1070.73?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1830,7 +1830,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.15.0-1075.76?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1938,7 +1938,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oem",
-				"purl": "pkg:deb/ubuntu/linux-oem?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oem@4.15.0-1097.107?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -2184,7 +2184,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle@4.15.0-1054.58?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -2280,7 +2280,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-raspi2",
-				"purl": "pkg:deb/ubuntu/linux-raspi2?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi2@4.15.0-1071.75?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -2391,7 +2391,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-snapdragon",
-				"purl": "pkg:deb/ubuntu/linux-snapdragon?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-snapdragon@4.15.0-1087.95?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{

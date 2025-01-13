@@ -8,8 +8,6 @@
 		"CVE-2017-14246",
 		"CVE-2017-14634",
 		"CVE-2017-16942",
-		"CVE-2017-17456",
-		"CVE-2017-17457",
 		"CVE-2017-6892",
 		"CVE-2018-13139",
 		"CVE-2018-19432",
@@ -21,8 +19,6 @@
 		"UBUNTU-CVE-2017-14246",
 		"UBUNTU-CVE-2017-14634",
 		"UBUNTU-CVE-2017-16942",
-		"UBUNTU-CVE-2017-17456",
-		"UBUNTU-CVE-2017-17457",
 		"UBUNTU-CVE-2017-6892",
 		"UBUNTU-CVE-2018-13139",
 		"UBUNTU-CVE-2018-19432",
@@ -38,7 +34,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "libsndfile",
-				"purl": "pkg:deb/ubuntu/libsndfile?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/libsndfile@1.0.25-10ubuntu0.16.04.2?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -99,7 +95,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "libsndfile",
-				"purl": "pkg:deb/ubuntu/libsndfile?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/libsndfile@1.0.28-4ubuntu0.18.04.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -171,14 +167,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2017-16942"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2017-17456"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2017-17457"
 		},
 		{
 			"type": "REPORT",

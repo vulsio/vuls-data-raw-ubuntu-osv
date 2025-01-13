@@ -24,7 +24,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-lowlatency-hwe-6.8",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.8?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency-hwe-6.8@6.8.0-45.45.1~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -129,7 +129,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-nvidia-6.8",
-				"purl": "pkg:deb/ubuntu/linux-nvidia-6.8?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-nvidia-6.8@6.8.0-1014.15~22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -233,7 +233,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux@6.8.0-45.45?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -393,7 +393,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-aws@6.8.0-1016.17?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -479,7 +479,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-gcp@6.8.0-1015.17?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -558,7 +558,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-gke",
-				"purl": "pkg:deb/ubuntu/linux-gke?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-gke@6.8.0-1011.14?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -636,7 +636,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-ibm@6.8.0-1013.13?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -726,7 +726,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-lowlatency?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-lowlatency@6.8.0-45.45.1?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -853,7 +853,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-nvidia",
-				"purl": "pkg:deb/ubuntu/linux-nvidia?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-nvidia@6.8.0-1014.15?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -962,7 +962,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-nvidia-lowlatency",
-				"purl": "pkg:deb/ubuntu/linux-nvidia-lowlatency?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-nvidia-lowlatency@6.8.0-1014.15.1?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -1068,7 +1068,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-oem-6.8",
-				"purl": "pkg:deb/ubuntu/linux-oem-6.8?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-oem-6.8@6.8.0-1013.13?arch=source&distro=noble"
 			},
 			"ranges": [
 				{
@@ -1152,7 +1152,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:24.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=noble"
+				"purl": "pkg:deb/ubuntu/linux-oracle@6.8.0-1013.13?arch=source&distro=noble"
 			},
 			"ranges": [
 				{

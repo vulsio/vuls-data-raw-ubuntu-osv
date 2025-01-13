@@ -18,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "giflib",
-				"purl": "pkg:deb/ubuntu/giflib?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/giflib@5.1.4-0.3~16.04.1+esm1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -84,7 +84,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "giflib",
-				"purl": "pkg:deb/ubuntu/giflib?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/giflib@5.1.4-2ubuntu0.1+esm1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -137,7 +137,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "giflib",
-				"purl": "pkg:deb/ubuntu/giflib?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/giflib@5.1.9-1ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -189,7 +189,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "giflib",
-				"purl": "pkg:deb/ubuntu/giflib?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/giflib@5.1.9-2ubuntu0.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -241,7 +241,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:23.10",
 				"name": "giflib",
-				"purl": "pkg:deb/ubuntu/giflib?arch=src?distro=mantic"
+				"purl": "pkg:deb/ubuntu/giflib@5.2.1-2.5ubuntu0.1?arch=source&distro=mantic"
 			},
 			"ranges": [
 				{

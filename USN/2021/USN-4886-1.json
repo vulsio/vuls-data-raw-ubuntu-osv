@@ -40,7 +40,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "privoxy",
-				"purl": "pkg:deb/ubuntu/privoxy?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/privoxy@3.0.21-7+deb8u1ubuntu0.1~esm1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -81,7 +81,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "privoxy",
-				"purl": "pkg:deb/ubuntu/privoxy?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/privoxy@3.0.24-1ubuntu0.1?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -123,7 +123,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "privoxy",
-				"purl": "pkg:deb/ubuntu/privoxy?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/privoxy@3.0.26-5ubuntu0.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -164,7 +164,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "privoxy",
-				"purl": "pkg:deb/ubuntu/privoxy?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/privoxy@3.0.28-2ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

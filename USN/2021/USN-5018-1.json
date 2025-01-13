@@ -36,7 +36,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/linux-azure@4.15.0-1121.134~14.04.1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -155,7 +155,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-aws-hwe",
-				"purl": "pkg:deb/ubuntu/linux-aws-hwe?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-aws-hwe@4.15.0-1109.116~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -275,7 +275,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-azure@4.15.0-1121.134~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -426,7 +426,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-gcp@4.15.0-1106.120~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -561,7 +561,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-hwe",
-				"purl": "pkg:deb/ubuntu/linux-hwe?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-hwe@4.15.0-151.157~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -915,7 +915,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:16.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=esm-infra/xenial"
+				"purl": "pkg:deb/ubuntu/linux-oracle@4.15.0-1078.86~16.04.1?arch=source&distro=esm-infra/xenial"
 			},
 			"ranges": [
 				{
@@ -1026,7 +1026,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux@4.15.0-151.157?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1517,7 +1517,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws@4.15.0-1109.116?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1658,7 +1658,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-azure-4.15",
-				"purl": "pkg:deb/ubuntu/linux-azure-4.15?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-4.15@4.15.0-1121.134?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1755,7 +1755,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-gcp-4.15",
-				"purl": "pkg:deb/ubuntu/linux-gcp-4.15?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-4.15@4.15.0-1106.120?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1843,7 +1843,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-kvm@4.15.0-1097.99?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -1966,7 +1966,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle@4.15.0-1078.86?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -2079,7 +2079,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-raspi2",
-				"purl": "pkg:deb/ubuntu/linux-raspi2?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-raspi2@4.15.0-1092.98?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -2205,7 +2205,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "linux-snapdragon",
-				"purl": "pkg:deb/ubuntu/linux-snapdragon?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/linux-snapdragon@4.15.0-1109.118?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{

@@ -16,7 +16,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "libcap2",
-				"purl": "pkg:deb/ubuntu/libcap2?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/libcap2@1:2.32-1ubuntu0.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -81,7 +81,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "libcap2",
-				"purl": "pkg:deb/ubuntu/libcap2?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/libcap2@1:2.44-1ubuntu0.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

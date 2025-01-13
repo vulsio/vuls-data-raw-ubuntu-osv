@@ -18,7 +18,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:14.04:LTS",
 				"name": "protobuf",
-				"purl": "pkg:deb/ubuntu/protobuf?arch=src?distro=trusty/esm"
+				"purl": "pkg:deb/ubuntu/protobuf@2.5.0-9ubuntu1+esm1?arch=source&distro=trusty/esm"
 			},
 			"ranges": [
 				{
@@ -103,7 +103,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "protobuf",
-				"purl": "pkg:deb/ubuntu/protobuf?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/protobuf@3.0.0-9.1ubuntu1.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -196,7 +196,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "protobuf",
-				"purl": "pkg:deb/ubuntu/protobuf?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/protobuf@3.6.1.3-2ubuntu5.2?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -299,7 +299,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "protobuf",
-				"purl": "pkg:deb/ubuntu/protobuf?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/protobuf@3.12.4-1ubuntu7.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{

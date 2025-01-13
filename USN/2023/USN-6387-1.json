@@ -6,10 +6,8 @@
 	"related": [
 		"CVE-2023-20588",
 		"CVE-2023-40283",
-		"CVE-2023-4128",
 		"UBUNTU-CVE-2023-20588",
-		"UBUNTU-CVE-2023-40283",
-		"UBUNTU-CVE-2023-4128"
+		"UBUNTU-CVE-2023-40283"
 	],
 	"summary": "linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp vulnerabilities",
 	"details": "\nJana Hofmann, Emanuele Vannacci, Cedric Fournet, Boris Kopf, and Oleksii\nOleksenko discovered that some AMD processors could leak stale data from\ndivision operations in certain situations. A local attacker could possibly\nuse this to expose sensitive information. (CVE-2023-20588)\n\nIt was discovered that the bluetooth subsystem in the Linux kernel did not\nproperly handle L2CAP socket release, leading to a use-after-free\nvulnerability. A local attacker could use this to cause a denial of service\n(system crash) or possibly execute arbitrary code. (CVE-2023-40283)\n\nIt was discovered that some network classifier implementations in the Linux\nkernel contained use-after-free vulnerabilities. A local attacker could use\nthis to cause a denial of service (system crash) or possibly execute\narbitrary code. (CVE-2023-4128)\n\n",
@@ -18,7 +16,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-aws-5.4",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.4@5.4.0-1110.119~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -155,7 +153,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-azure-5.4",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.4@5.4.0-1116.123~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -291,7 +289,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-gcp-5.4",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.4@5.4.0-1113.122~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -422,7 +420,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-hwe-5.4",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.4@5.4.0-163.180~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -753,7 +751,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-ibm-5.4",
-				"purl": "pkg:deb/ubuntu/linux-ibm-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-ibm-5.4@5.4.0-1057.62~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -865,7 +863,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:Pro:18.04:LTS",
 				"name": "linux-oracle-5.4",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.4?arch=src?distro=esm-infra/bionic"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.4@5.4.0-1109.118~18.04.1?arch=source&distro=esm-infra/bionic"
 			},
 			"ranges": [
 				{
@@ -995,7 +993,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux@5.4.0-163.180?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1477,7 +1475,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.4.0-1110.119?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1627,7 +1625,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure",
-				"purl": "pkg:deb/ubuntu/linux-azure?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure@5.4.0-1116.123?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1774,7 +1772,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp",
-				"purl": "pkg:deb/ubuntu/linux-gcp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp@5.4.0-1113.122?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -1916,7 +1914,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gkeop",
-				"purl": "pkg:deb/ubuntu/linux-gkeop?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gkeop@5.4.0-1077.81?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2047,7 +2045,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-ibm",
-				"purl": "pkg:deb/ubuntu/linux-ibm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-ibm@5.4.0-1057.62?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2166,7 +2164,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-iot",
-				"purl": "pkg:deb/ubuntu/linux-iot?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-iot@5.4.0-1022.23?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2254,7 +2252,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-kvm",
-				"purl": "pkg:deb/ubuntu/linux-kvm?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-kvm@5.4.0-1099.105?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2387,7 +2385,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle",
-				"purl": "pkg:deb/ubuntu/linux-oracle?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle@5.4.0-1109.118?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2528,7 +2526,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-xilinx-zynqmp",
-				"purl": "pkg:deb/ubuntu/linux-xilinx-zynqmp?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-xilinx-zynqmp@5.4.0-1030.34?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -2601,10 +2599,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-6387-1"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2023-4128"
 		},
 		{
 			"type": "REPORT",

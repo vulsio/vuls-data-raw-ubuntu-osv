@@ -4,13 +4,7 @@
 	"modified": "2022-06-08T05:01:06.153366Z",
 	"published": "2022-06-08T05:01:06.153366Z",
 	"related": [
-		"CVE-2022-1836",
-		"CVE-2022-1966",
-		"CVE-2022-1972",
 		"CVE-2022-21499",
-		"UBUNTU-CVE-2022-1836",
-		"UBUNTU-CVE-2022-1966",
-		"UBUNTU-CVE-2022-1972",
 		"UBUNTU-CVE-2022-21499"
 	],
 	"summary": "linux-oem-5.14 vulnerabilities",
@@ -20,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oem-5.14",
-				"purl": "pkg:deb/ubuntu/linux-oem-5.14?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oem-5.14@5.14.0-1042.47?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -110,18 +104,6 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://ubuntu.com/security/notices/USN-5470-1"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2022-1836"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2022-1966"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2022-1972"
 		},
 		{
 			"type": "REPORT",

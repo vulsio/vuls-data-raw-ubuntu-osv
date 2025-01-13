@@ -20,7 +20,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-aws-5.11",
-				"purl": "pkg:deb/ubuntu/linux-aws-5.11?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-aws-5.11@5.11.0-1022.23~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -101,7 +101,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-azure-5.11",
-				"purl": "pkg:deb/ubuntu/linux-azure-5.11?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-azure-5.11@5.11.0-1022.23~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -183,7 +183,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-gcp-5.11",
-				"purl": "pkg:deb/ubuntu/linux-gcp-5.11?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-gcp-5.11@5.11.0-1023.25~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -256,7 +256,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-hwe-5.11",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.11?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.11@5.11.0-41.45~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -762,7 +762,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-oracle-5.11",
-				"purl": "pkg:deb/ubuntu/linux-oracle-5.11?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-oracle-5.11@5.11.0-1022.23~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{

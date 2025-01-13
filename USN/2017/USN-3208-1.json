@@ -26,7 +26,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux",
-				"purl": "pkg:deb/ubuntu/linux?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux@4.4.0-64.85?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{
@@ -890,7 +890,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:16.04:LTS",
 				"name": "linux-snapdragon",
-				"purl": "pkg:deb/ubuntu/linux-snapdragon?arch=src?distro=xenial"
+				"purl": "pkg:deb/ubuntu/linux-snapdragon@4.4.0-1048.52?arch=source&distro=xenial"
 			},
 			"ranges": [
 				{

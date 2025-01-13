@@ -122,7 +122,6 @@
 		"CVE-2024-35910",
 		"CVE-2024-35912",
 		"CVE-2024-35915",
-		"CVE-2024-35918",
 		"CVE-2024-35922",
 		"CVE-2024-35925",
 		"CVE-2024-35930",
@@ -319,7 +318,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "linux-hwe-5.15",
-				"purl": "pkg:deb/ubuntu/linux-hwe-5.15?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/linux-hwe-5.15@5.15.0-116.126~20.04.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -509,7 +508,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "linux-aws",
-				"purl": "pkg:deb/ubuntu/linux-aws?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/linux-aws@5.15.0-1065.71?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
@@ -1105,10 +1104,6 @@
 		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-35915"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/CVE-2024-35918"
 		},
 		{
 			"type": "REPORT",

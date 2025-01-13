@@ -14,7 +14,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:18.04:LTS",
 				"name": "pixman",
-				"purl": "pkg:deb/ubuntu/pixman?arch=src?distro=bionic"
+				"purl": "pkg:deb/ubuntu/pixman@0.34.0-2ubuntu0.1?arch=source&distro=bionic"
 			},
 			"ranges": [
 				{
@@ -62,7 +62,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:20.04:LTS",
 				"name": "pixman",
-				"purl": "pkg:deb/ubuntu/pixman?arch=src?distro=focal"
+				"purl": "pkg:deb/ubuntu/pixman@0.38.4-0ubuntu2.1?arch=source&distro=focal"
 			},
 			"ranges": [
 				{
@@ -109,7 +109,7 @@
 			"package": {
 				"ecosystem": "Ubuntu:22.04:LTS",
 				"name": "pixman",
-				"purl": "pkg:deb/ubuntu/pixman?arch=src?distro=jammy"
+				"purl": "pkg:deb/ubuntu/pixman@0.40.0-1ubuntu0.22.04.1?arch=source&distro=jammy"
 			},
 			"ranges": [
 				{
