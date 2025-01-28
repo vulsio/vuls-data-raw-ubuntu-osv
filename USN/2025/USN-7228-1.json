@@ -1,13 +1,16 @@
 {
 	"schema_version": "1.6.0",
-	"id": "UBUNTU-CVE-2024-12426",
-	"modified": "2025-01-28T04:36:56Z",
-	"published": "2025-01-07T13:15:00Z",
+	"id": "USN-7228-1",
+	"modified": "2025-01-27T14:24:36.954536Z",
+	"published": "2025-01-27T14:24:36.954536Z",
 	"related": [
+		"CVE-2024-12425",
 		"CVE-2024-12426",
-		"USN-7228-1"
+		"UBUNTU-CVE-2024-12425",
+		"UBUNTU-CVE-2024-12426"
 	],
-	"details": "Exposure of Environmental Variables and arbitrary INI file values to an Unauthorized Actor vulnerability in The Document Foundation LibreOffice. URLs could be constructed which expanded environmental variables or INI file values, so potentially sensitive information could be exfiltrated to a remote server on opening a document containing such links. This issue affects LibreOffice: from 24.8 before < 24.8.4.",
+	"summary": "libreoffice vulnerabilities",
+	"details": "Thomas Rinsma discovered that LibreOffice incorrectly handled paths when\nprocessing embedded font files. If a user or automated system were tricked\ninto opening a specially crafted LibreOffice file, a remote attacker could\npossibly use this issue to create arbitrary files ending with \".ttf\".\n(CVE-2024-12425)\n\nThomas Rinsma discovered that LibreOffice incorrectly handled certain\nenvironment variables and INI file values. If a user or automated system\nwere tricked into opening a specially crafted LibreOffice file, a remote\nattacker could possibly use this issue to exfiltrate sensitive information.\n(CVE-2024-12426)\n",
 	"affected": [
 		{
 			"package": {
@@ -1063,11 +1066,10 @@
 						"binary_name": "ure-dbgsym",
 						"binary_version": "1:6.4.7-0ubuntu0.20.04.13"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-12426.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7228-1.json"
 			}
 		},
 		{
@@ -2154,11 +2156,10 @@
 						"binary_name": "ure-java-dbgsym",
 						"binary_version": "1:7.3.7-0ubuntu0.22.04.8"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-12426.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7228-1.json"
 			}
 		},
 		{
@@ -3238,11 +3239,10 @@
 						"binary_name": "ure-java-dbgsym",
 						"binary_version": "4:24.8.4-0ubuntu0.24.10.2"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-12426.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7228-1.json"
 			}
 		},
 		{
@@ -4323,30 +4323,25 @@
 						"binary_name": "ure-java-dbgsym",
 						"binary_version": "4:24.2.7-0ubuntu0.24.04.2"
 					}
-				],
-				"ubuntu_priority": "medium"
+				]
 			},
 			"database_specific": {
-				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/cve/2024/UBUNTU-CVE-2024-12426.json"
+				"source": "https://github.com/canonical/ubuntu-security-notices/blob/main/osv/usn/USN-7228-1.json"
 			}
 		}
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://ubuntu.com/security/notices/USN-7228-1"
+		},
+		{
+			"type": "REPORT",
+			"url": "https://ubuntu.com/security/CVE-2024-12425"
+		},
+		{
 			"type": "REPORT",
 			"url": "https://ubuntu.com/security/CVE-2024-12426"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.cve.org/CVERecord?id=CVE-2024-12426"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://www.libreoffice.org/about-us/security/advisories/cve-2024-12426"
-		},
-		{
-			"type": "REPORT",
-			"url": "https://ubuntu.com/security/notices/USN-7228-1"
 		}
 	]
 }
